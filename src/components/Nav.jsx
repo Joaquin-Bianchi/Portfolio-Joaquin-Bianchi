@@ -3,15 +3,18 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="sticky flex mx-auto item center m-9 ">
-      <div className="flex gap-6 bg-white rounded-3xl p-2 px-9">
+    <nav className="sticky top-3 flex mx-auto item center  drop-shadow-lg ">
+      <div className="flex gap-x-20 bg-white rounded-full py-3 px-10 border">
         <Link href={"/"} className="text-xl hover:text-red-500">
           Home
         </Link>
         <a href="#about" className="text-xl hover:text-red-500">
           About
         </a>
-        <Link href={"/projects"} className="text-xl hover:text-red-500">
+        <Link
+          href={"/projects"}
+          className="text-xl text-gray-400 hover:text-black"
+        >
           Projects
         </Link>
         <a href="#contact" className="text-xl hover:text-red-500">

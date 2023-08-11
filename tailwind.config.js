@@ -6,7 +6,36 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        text: "text 4s ease infinite",
+      },
+      keyframes: {
+        text: {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
+      },
+      colors: {
+        gris: "#FDFFFC",
+        "semi-slate": "#EEF1EF",
+        violeta: "#011627",
+      },
+      fontFamily: {
+        "Hind Madurai": ["Hind Madurai", "sans-serif"],
+        Lusitana: ["Lusitana", "serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
+// font-family: 'Hind Madurai', sans-serif;
+// font-family: 'Lusitana', serif;
+// font-family: 'Montserrat', sans-serif;
