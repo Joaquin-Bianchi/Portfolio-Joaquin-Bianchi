@@ -10,8 +10,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="container  min-h-screen mx-auto flex flex-col items-center 
-       bg-no-repeat bg-gradient-to-r from-white-100 to-white ,"
+        className="container min-h-screen md:mx-auto flex flex-col items-center 
+       bg-no-repeat ,"
       >
         <Nav></Nav>
         {children}

@@ -2,13 +2,13 @@ import React from "react";
 // refactorizar en componentes
 function Projects() {
   return (
-    <div className="mt-10">
+    <div className="mt-44">
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container  py-24 mx-auto">
           <div className="flex flex-col">
             <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
               <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-6xl mb-2 sm:mb-0">
-                My Projects
+                Projects
               </h1>
               {/* <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
                 Street art subway tile salvia four dollar toast bitters selfies
@@ -27,7 +27,7 @@ function Projects() {
                 />
               </div>
               <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-                Shooting Stars
+                todo-app
               </h2>
               <p className="text-base leading-relaxed mt-2">
                 Swag shoivdigoitch literally meditation subway tile tumblr
@@ -35,14 +35,14 @@ function Projects() {
                 ethical XOXO lumbersexual.
               </p>
               <a className="text-indigo-500 inline-flex items-center mt-3">
-                Learn More
+                DEMO
                 <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  className="w-4 h-4 ml-2"
+                  className="w-4 h-4 "
                   viewBox="0 0 24 24"
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
