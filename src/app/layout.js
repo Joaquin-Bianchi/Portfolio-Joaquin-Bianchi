@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className="container min-h-screen md:mx-auto flex flex-col items-center 
-       bg-no-repeat ,"
+       bg-no-repeat , bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-stone-600 via-white to-gray-200"
       >
         <Nav></Nav>
         {children}

@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        text: "text 4s ease infinite",
+        text: "text 3.2s ease infinite",
       },
       keyframes: {
         text: {

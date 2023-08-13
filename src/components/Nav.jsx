@@ -8,8 +8,8 @@ function Nav() {
         <Link href={"/"} className="text-xl text-gray-400 hover:text-red-500">
           Home
         </Link>
-        <a href="#about" className="text-xl hover:text-red-500">
-          About
+        <a href="#skills" className="text-xl hover:text-red-500">
+          Skills
         </a>
         <Link href={"/projects"} className="text-xl  hover:text-black">
           Projects
