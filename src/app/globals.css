@@ -21,7 +21,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #73c0fc;
+  background-color: #eb0143;
   transition: 0.4s;
   border-radius: 30px;
 }
@@ -60,7 +60,7 @@
 
 /* .switch:hover */
 .sun svg {
-  animation: rotate 15s linear infinite;
+  animation: rotate 12s linear infinite;
 }
 
 @keyframes rotate {
