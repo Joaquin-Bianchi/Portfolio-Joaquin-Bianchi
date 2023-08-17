@@ -1,9 +1,9 @@
 import React from "react";
 
 import { ButtonDemo, ButtonGitRepo } from "./buttons/SocialLinks";
-import { ListIconAnimated } from "./buttons/LayoutIcons";
+
 // refactorizar en componentes
-function Projects({ link, Description, ProjectName }) {
+function Projects({ linkRepo, linkDemo, Description, ProjectName }) {
   return (
     <div className="mt-44 dr">
       <section className=" body-font">

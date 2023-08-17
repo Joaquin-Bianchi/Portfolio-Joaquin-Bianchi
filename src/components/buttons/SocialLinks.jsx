@@ -31,7 +31,7 @@ function SocialLinks({ size }) {
           rel="noopener noreferrer"
         >
           <FaTelegram
-            className="transition ease-in-out hover:text-orange-500 duration-300"
+            className="transition ease-in-out hover:fill-orange-500 duration-300"
             size={size}
           ></FaTelegram>
         </a>
@@ -42,7 +42,7 @@ function SocialLinks({ size }) {
 
 export function ButtonGitRepo(linkRepo) {
   return (
-    <a className="button" href={linkRepo}>
+    <a className="button" target="_blank" href={linkRepo}>
       <svg
         width="24"
         height="24"
@@ -64,6 +64,7 @@ export function ButtonDemo({ linkDemo }) {
   return (
     <a
       href={linkDemo}
+      target="_blank"
       className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium  transition duration-300 ease-out border-2 border-orange-500 rounded-full shadow-md group
     bg-orange-500 text-orange-500"
     >
