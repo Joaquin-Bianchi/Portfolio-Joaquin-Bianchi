@@ -1,6 +1,7 @@
 import React from "react";
 
 import { ButtonDemo, ButtonGitRepo } from "./buttons/SocialLinks";
+import { ListIconAnimated } from "./buttons/LayoutIcons";
 // refactorizar en componentes
 function Projects({ link, Description, ProjectName }) {
   return (
@@ -9,7 +10,7 @@ function Projects({ link, Description, ProjectName }) {
         <div className="container  py-24 mx-auto ">
           <div className="flex flex-col">
             <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-              <h1 className="sm:w-2/5 text-gray-900 font-Montserrat font-extrabold title-font text-6xl mb-2 sm:mb-0">
+              <h1 className="sm:w-2/5 flex items-center text-gray-900 font-Montserrat font-extrabold title-font text-6xl mb-2 sm:mb-0">
                 Projects
               </h1>
             </div>
