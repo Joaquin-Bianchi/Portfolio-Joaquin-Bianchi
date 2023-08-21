@@ -1,6 +1,7 @@
 import React from "react";
 import ButtonCv from "./buttons/ButtonCv";
 import SocialLinks from "./buttons/SocialLinks";
+import MeetCard from "./cards/MeetCard";
 
 function About() {
   return (
@@ -13,7 +14,6 @@ function About() {
         >
           Joaquin Bianchi
         </h1>
-
         <h2 className="text-4xl mt-2 font-mono font-medium text-black ">
           Full Stack Developer
         </h2>
@@ -31,6 +31,7 @@ function About() {
           </div>
         </div>
       </div>
+      <MeetCard />
     </section>
   );
 }

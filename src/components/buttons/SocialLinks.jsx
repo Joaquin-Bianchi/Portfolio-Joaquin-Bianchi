@@ -40,9 +40,14 @@ function SocialLinks({ size }) {
   );
 }
 
-export function ButtonGitRepo(linkRepo) {
+export function ButtonGitRepo({ linkRepo }) {
   return (
-    <a className="button" target="_blank" href={linkRepo}>
+    <a
+      className="button"
+      target="_blank"
+      href={linkRepo}
+      rel="noopener noreferrer"
+    >
       <svg
         width="24"
         height="24"
@@ -66,7 +71,7 @@ export function ButtonDemo({ linkDemo }) {
       href={linkDemo}
       target="_blank"
       className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium  transition duration-300 ease-out border-2 border-orange-500 rounded-full shadow-md group
-    bg-orange-500 text-orange-500"
+    bg-orange-500 text-orange-500 cursor-pointer"
     >
       <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
         <svg

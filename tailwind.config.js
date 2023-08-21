@@ -40,3 +40,8 @@ module.exports = {
 // font-family: 'Hind Madurai', sans-serif;
 // font-family: 'Lusitana', serif;
 // font-family: 'Montserrat', sans-serif;
+// 'text': '#232323',
+// 'background': '#f0fffd',
+// 'primary': '#dd031d',
+// 'secondary': '#9effec',
+// 'accent': '#c9031a',
