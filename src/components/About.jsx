@@ -1,12 +1,12 @@
 import React from "react";
 import ButtonCv from "./buttons/ButtonCv";
 import SocialLinks from "./buttons/SocialLinks";
-import MeetCard from "./cards/MeetCard";
+// import MeetCard from "./cards/MeetCard";
 
 function About() {
   return (
-    <section className="container  mt-40">
-      <div className="flex flex-col gap-1">
+    <section className="container  mt-40  flex ">
+      <div className="flex flex-col gap-1 ">
         <h1
           className="text-7xl text-slate font-Montserrat font-extrabold  flex items-center,
         animate-text bg-gradient-to-r from-amber-500 via-rose-500 to-orange-500 bg-clip-text text-transparent
@@ -31,7 +31,9 @@ function About() {
           </div>
         </div>
       </div>
-      <MeetCard />
+      {/* <div className="ml-12">
+        <MeetCard />
+      </div> */}
     </section>
   );
 }

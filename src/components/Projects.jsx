@@ -2,6 +2,7 @@ import React from "react";
 
 import { ButtonDemo, ButtonGitRepo } from "./buttons/SocialLinks";
 import ProjectCard from "./cards/ProjectCard";
+import Loader from "./cards/Loader";
 
 // refactorizar en componentes
 function Projects({}) {
@@ -11,9 +12,12 @@ function Projects({}) {
         <div className="container  py-24 mx-auto ">
           <div className="flex flex-col">
             <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-              <h1 className="sm:w-2/5 flex items-center text-gray-900 font-Montserrat font-extrabold title-font text-6xl mb-2 sm:mb-0">
-                Projectos
-              </h1>
+              <div className="flex flex-col gap-1">
+                <h2 className="sm:w-2/5 flex items-center text-gray-900 font-Montserrat font-extrabold title-font text-6xl mb-2 sm:mb-0">
+                  Projects
+                </h2>
+                <Loader />
+              </div>
             </div>
           </div>
           {/* crear componente */}
