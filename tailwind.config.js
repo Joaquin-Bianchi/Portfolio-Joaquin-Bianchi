@@ -32,6 +32,7 @@ module.exports = {
         "Hind Madurai": ["Hind Madurai", "sans-serif"],
         Lusitana: ["Lusitana", "serif"],
         Montserrat: ["Montserrat", "sans-serif"],
+        Oswald: ["Oswald", "sans-serif"],
       },
     },
   },

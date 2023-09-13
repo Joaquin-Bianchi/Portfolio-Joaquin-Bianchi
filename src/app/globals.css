@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lusitana&family=Montserrat:wght@700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
 .input:checked + .slider {
   background-color: #183153;
 }
@@ -53,7 +55,7 @@
 
 .loader {
   display: block;
-  --height-of-loader: 11px;
+  --height-of-loader: 9px;
   --loader-color: #f97316;
   width: auto;
   height: var(--height-of-loader);
@@ -83,6 +85,48 @@
     width: 0;
     right: 0;
     left: unset;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+/* When you change the amount of characters in the h1, you have to change 
+the with: 14ch and  steps(14, end), if there is 14 characters, put 14, 
+if there is 20 put 20 */
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 20.5ch;
+  animation: typing 4s steps(92), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
 }
 @tailwind base;

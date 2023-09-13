@@ -9,8 +9,8 @@ export default function Home() {
     <>
       <SubTitle></SubTitle>
       <About></About>
-      <Skills></Skills>
       <Projects></Projects>
+      <Skills></Skills>
       <Contact></Contact>
     </>
   );

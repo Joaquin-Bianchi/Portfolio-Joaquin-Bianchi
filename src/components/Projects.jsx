@@ -7,7 +7,7 @@ import Loader from "./cards/Loader";
 // refactorizar en componentes
 function Projects({}) {
   return (
-    <div className="mt-44 dr">
+    <div className="mt-28 dr">
       <section className=" body-font">
         <div className="container  py-24 mx-auto ">
           <div className="flex flex-col">
