@@ -57,7 +57,7 @@
   display: block;
   --height-of-loader: 9px;
   --loader-color: #f97316;
-  width: auto;
+  width: 100%;
   height: var(--height-of-loader);
   border-radius: 30px;
   background-color: rgb(255, 255, 255);
@@ -109,7 +109,7 @@ if there is 20 put 20 */
 }
 
 .typing-demo {
-  width: 20.5ch;
+  width: 18.8ch;
   animation: typing 4s steps(92), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;

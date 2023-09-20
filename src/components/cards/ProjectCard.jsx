@@ -1,7 +1,7 @@
 import React from "react";
 import { ButtonDemo, ButtonGitRepo } from "../buttons/SocialLinks";
 
-function ProjectCard({ Description, ProjectName }) {
+function ProjectCard({ Description, ProjectName, Imagen, LinkRepo, LinkDemo }) {
   return (
     <article className="p-4 md:w-1/3 sm:mb-0 mb-6 bg-gris drop-shadow-md">
       <div className=" rounded-lg h-64 overflow-hidden">
@@ -22,12 +22,8 @@ function ProjectCard({ Description, ProjectName }) {
         {Description}
       </p>
       <div className="flex items-center justify-between">
-        <ButtonGitRepo
-          linkRepo={"https://github.com/Joaquin-Bianchi"}
-        ></ButtonGitRepo>
-        <ButtonDemo
-          linkDemo={"https://github.com/Joaquin-Bianchi"}
-        ></ButtonDemo>
+        <ButtonGitRepo linkRepo={LinkRepo}></ButtonGitRepo>
+        <ButtonDemo linkDemo={LinkDemo}></ButtonDemo>
       </div>
     </article>
   );

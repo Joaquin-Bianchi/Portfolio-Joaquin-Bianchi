@@ -7,18 +7,18 @@ import Image from "next/image";
 
 function About() {
   return (
-    <section className="container  mt-32  flex items-center ">
+    <section className="container  mt-32  flex items-center  mx-auto">
       <div className="flex flex-col gap-1">
         <h1
-          className="text-7xl text-slate font-Montserrat font-extrabold  flex items-center,
+          className="text-6xl  text-slate font-Montserrat font-extrabold  flex items-center,
         animate-text bg-gradient-to-r from-[#000000] via-[#f97316] to-[#f97316] bg-clip-text text-transparent
         drop-shadow "
         >
           Joaquin Bianchi
         </h1>
 
-        <h2 className="text-4xl mt-2 font-mono font-medium text-black typing-demo">
-          Full Stack Developer
+        <h2 className="text-3xl mt-2 font-mono font-medium text-black typing-demo">
+          Frontend Developer
         </h2>
 
         <p className="text-2xl sm:w-6/12 ml text-left break-words font-Hind Madurai drop-shadow">

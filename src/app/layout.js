@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="container min-h-screen md:mx-auto flex flex-col items-center 
+        className="lg:mx-[200px] 
        bg-no-repeat , bg-gris"
       >
         <Nav></Nav>
