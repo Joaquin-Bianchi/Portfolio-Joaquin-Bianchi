@@ -1,14 +1,14 @@
 import React from "react";
 import Loader from "./cards/Loader";
-
 import {
+  SiBootstrap,
   SiJavascript,
   SiNextdotjs,
   SiReact,
   SiTailwindcss,
 } from "react-icons/si";
-import { RiJavascriptFill } from "react-icons/ri";
-import { FaCss3, FaHtml5 } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
+import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
 function Skills() {
   return (
     // <div>
@@ -45,16 +45,31 @@ function Skills() {
           </div>
           <p className="flex items-center font-mono font-semibold text-lg justify-center mb-4">
             {" "}
-            FRONT
+            FRONTEND
           </p>
           <article className="flex justify-center">
-            <div className="flex flex-wrap items-center justify-center  gap-12 text-7xl">
-              <FaHtml5 />
-              <FaCss3 />
-              <SiTailwindcss />
-              <SiJavascript />
-              <SiReact />
-              <SiNextdotjs />
+            <div className="flex flex-wrap items-center justify-center   gap-12 text-8xl">
+              <div className="hover:text-orange-600  transition duration-300 ease-out ">
+                <FaHtml5 />
+              </div>
+              <div className="hover:text-blue-600 cursor-pointer transition duration-300 ease-out">
+                <FaCss3Alt />
+              </div>
+              <div className="hover:text-violet-600 cursor-pointer transition duration-300 ease-out">
+                <SiBootstrap />
+              </div>
+              <div className="hover:text-cyan-400  cursor-pointer transition duration-300 ease-out">
+                <SiTailwindcss />
+              </div>
+              <div className="hover:text-[#ffee00]  cursor-pointer transition duration-300 ease-out">
+                <SiJavascript />
+              </div>
+              <div className="hover:text-cyan-400   cursor-pointer transition duration-300 ease-out">
+                <SiReact />
+              </div>
+              <div className="w-24 h-20 hover:bg-black rounded-full  cursor-pointer transition duration-300 ease-out flex items-center justify-center">
+                <SiNextdotjs className=" hover:text-zinc-50  transition duration-300 ease-out" />
+              </div>
             </div>
           </article>
         </div>

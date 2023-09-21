@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="lg:mx-[200px] mx-[10px] 
+        className="lg:mx-[250px] mx-[10px] 
        bg-no-repeat , bg-gris"
       >
         <Nav></Nav>

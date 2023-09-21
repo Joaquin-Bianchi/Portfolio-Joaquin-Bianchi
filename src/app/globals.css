@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lusitana&family=Montserrat:wght@700&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+/* Cambia el color de fondo de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 11px; /* Ancho de la barra de desplazamiento */
+  background-color: #f0f0f0; /* Color de fondo */
+}
+
+/* Cambia el color del "pulgar" de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #f97316; /* Color del pulgar (barra de desplazamiento real) */
+}
 
 .input:checked + .slider {
   background-color: #183153;

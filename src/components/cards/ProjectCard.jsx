@@ -9,18 +9,14 @@ function ProjectCard({ Description, ProjectName, Imagen, LinkRepo, LinkDemo }) {
           alt="content"
           className="object-cover object-center h-full w-full
         transition duration-300 ease-in-out hover:scale-110"
-          src="assets/next.jpg" //crear prop de img
+          // src="assets/next.jpg"
+          src={Imagen}
         />
       </div>
       <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
         {ProjectName}
       </h2>
-      <p className="text-base leading-relaxed mt-2 mb-4">
-        Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed.
-        Gastropub street art beard dreamcatcher neutra, ethical XOXO
-        lumbersexual.
-        {Description}
-      </p>
+      <p className="text-base leading-relaxed mt-2 mb-4">{Description}</p>
       <div className="flex items-center justify-between">
         <ButtonGitRepo linkRepo={LinkRepo}></ButtonGitRepo>
         <ButtonDemo linkDemo={LinkDemo}></ButtonDemo>
