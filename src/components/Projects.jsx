@@ -12,7 +12,7 @@ function Projects({}) {
         <div className="container  py-24 mx-auto ">
           <div className="flex flex-col">
             <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-              <div className="flex flex-col gap-1">
+              <div className="flex flex-col gap-1 m-auto   md:w-auto w-[199px] md:m-0">
                 <h2 className="sm:w-2/5 flex items-center text-gray-900 font-Montserrat font-extrabold title-font text-5xl mb-2 sm:mb-0">
                   Projects
                 </h2>
