@@ -13,7 +13,7 @@ function ProjectCard({ Description, ProjectName, Imagen, LinkRepo, LinkDemo }) {
         />
       </div>
       <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-        todo-app {ProjectName}
+        {ProjectName}
       </h2>
       <p className="text-base leading-relaxed mt-2 mb-4">
         Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed.

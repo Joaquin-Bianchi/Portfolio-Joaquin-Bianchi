@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 
 function SocialLinks({ size }) {
   return (
-    <div className="flex ">
+    <div className="flex z-20">
       <div className="flex items-center gap-2">
         <a
           href="https://github.com/Joaquin-Bianchi"
@@ -70,7 +70,7 @@ export function ButtonDemo({ linkDemo }) {
     <a
       href={linkDemo}
       target="_blank"
-      className="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium  transition duration-300 ease-out border-2 border-orange-500 rounded-full shadow-md group
+      className="relative inline-flex items-center justify-center p-3 px-6 py-2.5 overflow-hidden font-medium  transition duration-300 ease-out border-2 border-orange-500 rounded-full shadow-md group
     bg-orange-500 text-orange-500 cursor-pointer"
     >
       <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">

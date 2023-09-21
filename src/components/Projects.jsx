@@ -3,7 +3,7 @@ import React from "react";
 import { ButtonDemo, ButtonGitRepo } from "./buttons/SocialLinks";
 import ProjectCard from "./cards/ProjectCard";
 import Loader from "./cards/Loader";
-
+import proyects from "@/services/proyects";
 // refactorizar en componentes
 function Projects({}) {
   return (
@@ -22,11 +22,16 @@ function Projects({}) {
           </div>
           {/* crear componente */}
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-            <ProjectCard ProjectName={"1"} Description={""}></ProjectCard>
-            <ProjectCard ProjectName={"2"} Description={""}></ProjectCard>
-            <ProjectCard ProjectName={"3"} Description={""}></ProjectCard>
-
-            {/*    agregar .map aqui  ???*/}
+            {proyects.map((project, index) => (
+              <ProjectCard
+                key={index}
+                ProjectName={project.ProjectName}
+                Description={project.Description}
+                Imagen={project.Imagen}
+                LinkRepo={project.LinkRepo}
+                LinkDemo={project.LinkDemo}
+              />
+            ))}
           </div>
         </div>
       </section>
