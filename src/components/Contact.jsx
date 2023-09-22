@@ -7,12 +7,19 @@ function Contact() {
     <section className="text-gray-600 body-font relative">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-[199px] justify-center m-auto mb-12">
-          <h2 className="sm:w-2/5 flex items-center text-gray-900 font-Montserrat font-extrabold title-font text-5xl mb-1 sm:mb-0">
+          <h2 className="sm:w-2/5 flex items-center text-gray-900 font-Montserrat font-extrabold title-font text-5xl sm:mb-0">
             Contact
           </h2>
           <Loader />
-          <p className="lg:w-2/3 mx-auto leading-relaxed flex justify-center mt-9 text-base">
-            <a className="text-black font-medium">example@email.com</a>
+          <p className="lg:w-2/3 mx-auto  flex flex-col font-Hind Madurai items-center justify-center mt-6 text-black font-medium text-base">
+            Want to work with me? Send a message to
+            <a
+              class="font-bold text-black hover:text-orange-600"
+              href="mailto:joaqobianchi13@gmail.com"
+            >
+              joaqobianchi13@gmail.com
+            </a>
+            or use the contact form.
           </p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
