@@ -1,9 +1,9 @@
 const proyects = [
   {
-    ProjectName: "Comfy Store",
+    ProjectName: "Comfy Store (E-commerce)",
     Description:
-      "Descripción del Proyecto 1. Swag shoivdigoitch literally meditation  y meditation subway tile tu y meditation subway tile tusubway tile tumblr cold-pressed.",
-    Imagen: "assets/comfy.jpg",
+      "I worked on the frontend and collaborated with the design, we use Next js, React and Tailwind  and libraries like Material ui , react hot toast y Aos for the animations among others.",
+    Imagen: "assets/comfy2.png",
     LinkRepo: "https://github.com/repositorio/proyecto1",
     LinkDemo: "https://no-country-comfy.vercel.app/",
   },

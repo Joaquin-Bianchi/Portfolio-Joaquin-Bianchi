@@ -1,5 +1,7 @@
+"use client";
 import Nav from "@/components/Nav";
 import "./globals.css";
+import { NextUIProvider } from "@nextui-org/react";
 
 export const metadata = {
   title: "Joaquin Bianchi",
@@ -13,8 +15,10 @@ export default function RootLayout({ children }) {
         className="lg:mx-[250px] mx-[10px] 
        bg-no-repeat , bg-gris"
       >
-        <Nav></Nav>
-        {children}
+        <NextUIProvider>
+          <Nav></Nav>
+          {children}
+        </NextUIProvider>
       </body>
     </html>
   );

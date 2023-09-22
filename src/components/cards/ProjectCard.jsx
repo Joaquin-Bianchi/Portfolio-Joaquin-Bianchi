@@ -1,12 +1,19 @@
 import React from "react";
 import { ButtonDemo, ButtonGitRepo } from "../buttons/SocialLinks";
 
-function ProjectCard({ Description, ProjectName, Imagen, LinkRepo, LinkDemo }) {
+function ProjectCard({
+  Description,
+  ProjectName,
+  Imagen,
+  LinkRepo,
+  LinkDemo,
+  alt,
+}) {
   return (
     <article className="p-4 md:w-1/3 sm:mb-0 mb-6 bg-gris drop-shadow-md">
       <div className=" rounded-lg h-64 overflow-hidden">
         <img
-          alt="content"
+          alt={alt}
           className="object-cover object-center h-full w-full
         transition duration-300 ease-in-out hover:scale-110"
           // src="assets/next.jpg"

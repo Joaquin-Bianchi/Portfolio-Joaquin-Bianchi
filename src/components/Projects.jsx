@@ -30,6 +30,7 @@ function Projects({}) {
                 Imagen={project.Imagen}
                 LinkRepo={project.LinkRepo}
                 LinkDemo={project.LinkDemo}
+                alt={project.name}
               />
             ))}
           </div>
