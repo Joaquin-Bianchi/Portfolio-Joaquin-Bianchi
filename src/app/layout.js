@@ -3,11 +3,6 @@ import Nav from "@/components/Nav";
 import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react";
 
-export const metadata = {
-  title: "Joaquin Bianchi",
-  description: "This is a Joaquin Bianchi Personal portfolio",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
