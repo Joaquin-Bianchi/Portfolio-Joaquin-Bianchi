@@ -8,18 +8,18 @@ const proyects = [
     LinkDemo: "https://no-country-comfy.vercel.app/",
   },
   {
-    ProjectName: "Proyecto 2",
+    ProjectName: "Undefined Blog",
     Description:
       "Descripción del Proyecto 2. Gastropub street art   Gastropub street  Gastropub streetbeard dreamcatcher neutra, ethical XOXO lumbersexual.",
-    Imagen: "assets/next.jpg",
+    Imagen: "assets/blog.png",
     LinkRepo: "https://github.com/repositorio/proyecto2",
     LinkDemo: "https://demo.proyecto2.com",
   },
   {
-    ProjectName: "Proyecto 3",
+    ProjectName: "Task App",
     Description:
       "Descripción del Proyecto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. tetur adipiscing elit.tetur adipiscing elit.",
-    Imagen: "ruta/a/imagen3.jpg",
+    Imagen: "assets/task2.png",
     LinkRepo: "https://github.com/repositorio/proyecto3",
     LinkDemo: "https://demo.proyecto3.com",
   },
