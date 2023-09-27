@@ -6,6 +6,10 @@ import { NextUIProvider } from "@nextui-org/react";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Joaquin Bianchi | Portfolio</title>
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <body
         className="lg:mx-[250px] mx-[10px] 
        bg-no-repeat , bg-gris"
