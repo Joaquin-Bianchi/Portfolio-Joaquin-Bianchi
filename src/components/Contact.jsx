@@ -4,7 +4,7 @@ import SocialLinks from "./buttons/SocialLinks";
 import Loader from "./cards/Loader";
 import emailjs from "@emailjs/browser";
 import ButtonCv from "./buttons/ButtonCv";
-
+import { toast } from "react-hot-toast";
 function Contact() {
   const form = useRef();
   const [formData, setFormData] = useState({
@@ -26,6 +26,7 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("Email Sent");
 
           setFormData({
             user_name: "",
@@ -49,14 +50,14 @@ function Contact() {
 
   return (
     <section className="text-gray-600 body-font relative">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="mt-24 mx-auto">
         <div className="flex flex-col text-center w-[199px] justify-center m-auto mb-12">
           <h2 className="sm:w-2/5 flex items-center text-gray-900 font-Montserrat font-extrabold title-font text-5xl sm:mb-0">
             Contact
           </h2>
           <Loader />
-          <p className=" mx-auto  flex flex-col font-Hind Madurai items-center justify-center mt-6 text-black font-medium text-base">
-            Want to work with me?
+          <p className=" items-center font-Hind-Madurai drop-shadow              flex flex-col font-Hind Madurai  mt-6 text-black">
+            <span className="font-bold text-lg">Want to work with me?</span>
             <span>Send message to </span>
             <a
               className="font-bold text-black hover:text-orange-600"

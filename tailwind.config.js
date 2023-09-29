@@ -31,7 +31,7 @@ module.exports = {
         "black-opaque": "#0f172a",
       },
       fontFamily: {
-        "Hind Madurai": ["Hind Madurai", "sans-serif"],
+        "Hind-Madurai": ["Hind Madurai", "sans-serif"],
         Lusitana: ["Lusitana", "serif"],
         Montserrat: ["Montserrat", "sans-serif"],
         Oswald: ["Oswald", "sans-serif"],

@@ -2,6 +2,7 @@
 import Nav from "@/components/Nav";
 import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react";
+import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({ children }) {
   return (
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
        bg-no-repeat , bg-gris"
       >
         <NextUIProvider>
+          <Toaster position="bottom-center" reverseOrder={false} />
           <Nav></Nav>
           {children}
         </NextUIProvider>
