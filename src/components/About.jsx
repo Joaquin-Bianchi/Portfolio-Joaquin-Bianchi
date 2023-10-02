@@ -16,12 +16,11 @@ function About() {
         >
           Joaquin Bianchi
         </h1>
-
         <h2 className="text-3xl mt-2 font-mono font-medium text-black typing-demo">
           Frontend Developer
         </h2>
-
-        <p className="text-2xl sm:w-6/12 ml text-black text-left break-words font-Hind-Madurai drop-shadow">
+        {/* text-wrap */}
+        <p className="text-2xl sm:w-6/12 ml text-black text-left break-words font-Hind-Madurai drop-shadow text-wrap">
           Soy Joaquin adad dawdadw Lorem ipsum, dolor sit amet consectetur
           adipisicing elit. Incidunt esse eaque aperiam voluptate accusantium
           dolorum temporibus soluta error blanditiis facilis repellendus, qui
