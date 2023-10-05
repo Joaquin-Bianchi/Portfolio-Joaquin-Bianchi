@@ -10,7 +10,7 @@ function ProjectCard({
   alt,
 }) {
   return (
-    <article className="p-4 md:w-1/3 sm:mb-0 mb-6 bg-gris drop-shadow-md">
+    <div className="p-4 md:w-1/3 sm:mb-0 mb-6 bg-gris drop-shadow-md flex flex-col justify-between">
       <div className=" rounded-lg h-64 overflow-hidden">
         <img
           alt={alt}
@@ -28,7 +28,7 @@ function ProjectCard({
         <ButtonGitRepo linkRepo={LinkRepo}></ButtonGitRepo>
         <ButtonDemo linkDemo={LinkDemo}></ButtonDemo>
       </div>
-    </article>
+    </div>
   );
 }
 

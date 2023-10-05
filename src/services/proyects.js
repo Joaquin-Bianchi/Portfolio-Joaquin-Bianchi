@@ -20,9 +20,17 @@ const proyects = [
     Description:
       "Descripción del Proyecto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. tetur adipiscing elit.tetur adipiscing elit.",
     Imagen: "assets/task2.png",
-    LinkRepo: "https://github.com/repositorio/proyecto3",
-    LinkDemo: "https://demo.proyecto3.com",
+    LinkRepo: "https://github.com/Joaquin-Bianchi/todo-app",
+    LinkDemo: "https://todo-task-react.vercel.app",
   },
+  // {
+  //   ProjectName: "Image Generator IA (in Progress...)",
+  //   Description:
+  //     "Descripción del Proyecto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. tetur adipiscing elit.tetur adipiscing elit.",
+  //   Imagen: "assets/process.png",
+  //   LinkRepo: "https://github.com/Joaquin-Bianchi/nextjs-image-generator",
+  //   LinkDemo: "https://nextjs-image-generator.vercel.app",
+  // },
 ];
 
 export default proyects;
