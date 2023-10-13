@@ -9,6 +9,7 @@ import {
   SiNextdotjs,
   SiReact,
   SiTailwindcss,
+  SiTypescript,
 } from "react-icons/si";
 
 import { BsGit } from "react-icons/bs";
@@ -65,6 +66,11 @@ function Skills() {
                   <SiReact />
                 </div>
               </Tooltip>
+              <Tooltip content="TYPESCRIPT">
+                <div className=" w-24 h-24    hover:text-[#00a2ff]  cursor-pointer ">
+                  <SiTypescript className="hover:bg-white transition duration-300 ease-out" />
+                </div>
+              </Tooltip>
               <Tooltip content="NEXT-JS">
                 <div className="w-24 h-24 hover:bg-black rounded-full  cursor-pointer transition duration-300 ease-out flex items-center justify-center">
                   <SiNextdotjs className=" hover:text-white  transition duration-300 ease-out" />
@@ -72,7 +78,7 @@ function Skills() {
               </Tooltip>
             </div>
           </article>
-          <p className="flex items-center font-Montserrat font-semibold text-lg justify-center mt-10 mb-9">
+          <p className="flex items-center  font-Montserrat font-semibold text-lg justify-center mt-10 mb-9">
             TOOLS
           </p>
           <article className="flex justify-center">
@@ -83,7 +89,7 @@ function Skills() {
                 </div>
               </Tooltip>
               <Tooltip content="GITHUB">
-                <div className="hover:opacity-70   cursor-pointer transition duration-300 ease-out">
+                <div className="hover:text-zinc-700   cursor-pointer transition duration-300 ease-out">
                   <FaGithub />
                 </div>
               </Tooltip>

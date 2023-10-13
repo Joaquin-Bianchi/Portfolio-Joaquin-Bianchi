@@ -6,15 +6,12 @@ import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="fondo">
       <head>
         <title>Joaquin Bianchi | Portfolio</title>
         <link rel="icon" href="/favicon.png" />
       </head>
-      <body
-        className="lg:mx-[250px] mx-[10px] 
-       bg-no-repeat , bg-gris"
-      >
+      <body className="lg:mx-[250px] mx-[10px] bg-no-repeat fondo dark">
         <NextUIProvider>
           <Toaster position="bottom-center" reverseOrder={false} />
           <Nav></Nav>

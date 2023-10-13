@@ -10,7 +10,7 @@ function ProjectCard({
   alt,
 }) {
   return (
-    <div className="p-4 md:w-1/3 sm:mb-0 mb-6 bg-gris drop-shadow-md flex flex-col justify-between">
+    <div className="p-3 md:w-1/3 sm:mb-0 mb-6 bg-white border-1  border-zinc-500  flex flex-col justify-between drop-shadow-xl">
       <div className=" rounded-lg h-64 overflow-hidden">
         <img
           alt={alt}

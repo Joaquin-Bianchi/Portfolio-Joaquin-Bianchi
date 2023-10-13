@@ -23,6 +23,7 @@ const proyects = [
     LinkRepo: "https://github.com/Joaquin-Bianchi/todo-app",
     LinkDemo: "https://todo-task-react.vercel.app",
   },
+
   // {
   //   ProjectName: "Image Generator IA (in Progress...)",
   //   Description:
