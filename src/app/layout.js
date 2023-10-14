@@ -1,22 +1,19 @@
 "use client";
 import Nav from "@/components/Nav";
 import "./globals.css";
-import { NextUIProvider } from "@nextui-org/react";
 import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="fondo">
+    <html lang="en" className="">
       <head>
         <title>Joaquin Bianchi | Portfolio</title>
         <link rel="icon" href="/favicon.png" />
       </head>
-      <body className="lg:mx-[250px] mx-[10px] bg-no-repeat fondo dark">
-        <NextUIProvider>
-          <Toaster position="bottom-center" reverseOrder={false} />
-          <Nav></Nav>
-          {children}
-        </NextUIProvider>
+      <body className="lg:mx-[250px] mx-[10px]  bg-white dark:bg-bg">
+        <Toaster position="bottom-center" reverseOrder={false} />
+        <Nav></Nav>
+        {children}
       </body>
     </html>
   );

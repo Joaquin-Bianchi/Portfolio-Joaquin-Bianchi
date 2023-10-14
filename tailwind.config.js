@@ -1,11 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-const { nextui } = require("@nextui-org/react");
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    ,
   ],
   darkMode: "class",
   theme: {
@@ -26,7 +25,7 @@ module.exports = {
         },
       },
       colors: {
-        gris: "#FDFFFC",
+        bg: "#0f0e17",
         "semi-slate": "#EEF1EF",
         violeta: "#011627",
         "black-opaque": "#0f172a",
@@ -40,8 +39,6 @@ module.exports = {
     },
   },
   darkMode: "class",
-
-  plugins: [nextui()],
 };
 // font-family: 'Hind Madurai', sans-serif;
 // font-family: 'Lusitana', serif;

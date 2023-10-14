@@ -52,15 +52,17 @@ function Contact() {
     <section className="text-gray-600 body-font relative">
       <div className="mt-24 mx-auto">
         <div className="flex flex-col text-center w-[199px] justify-center m-auto mb-12">
-          <h2 className="sm:w-2/5 flex items-center text-gray-900 font-Montserrat font-extrabold title-font text-5xl sm:mb-0">
+          <h2 className="sm:w-2/5 flex items-center dark:text-white text-gray-900 font-Montserrat font-extrabold title-font text-5xl sm:mb-0">
             Contact
           </h2>
           <Loader />
-          <p className=" items-center font-Hind-Madurai drop-shadow              flex flex-col font-Hind Madurai  mt-6 text-black">
-            <span className="font-bold text-lg">Want to work with me?</span>
-            <span>Send message to </span>
+          <p className="dark:text-[#a7a9be] items-center font-Hind-Madurai drop-shadow              flex flex-col font-Hind Madurai  mt-6 text-black">
+            <span className="font-bold text-lg dark:text-[#a7a9be]">
+              Want to work with me?
+            </span>
+            <span className="dark:text-[#a7a9be]">Send message to </span>
             <a
-              className="font-bold text-black hover:text-orange-600"
+              className="font-bold text-black dark:text-white dark:hover:text-orange-500 hover:text-orange-600"
               href="mailto:joaqobianchi13@gmail.com"
             >
               joaqobianchi13@gmail.com
@@ -69,7 +71,11 @@ function Contact() {
           </p>
         </div>
         <div className="lg:w-1/2 md:w-2/3 mx-auto">
-          <form ref={form} onSubmit={sendEmail} className="flex flex-wrap -m-2">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="flex flex-wrap -m-2 font-extrabold "
+          >
             <div className="p-2 w-1/2">
               <div className="relative">
                 <label
@@ -78,7 +84,7 @@ function Contact() {
                   id="name"
                   required
                   name="user_name"
-                  className="leading-7 text-base text-gray-600"
+                  className="leading-7 text-base dark:text-white dark:font-bold text-gray-600"
                 >
                   Name
                 </label>
@@ -89,7 +95,7 @@ function Contact() {
                   name="user_name"
                   value={formData.user_name}
                   onChange={handleInputChange}
-                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full dark:text-black bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
@@ -101,7 +107,7 @@ function Contact() {
                   required
                   id="email"
                   name="user_email"
-                  className="leading-7 text-sm text-gray-600"
+                  className="leading-7 text-sm dark:text-white dark:font-bold text-gray-600"
                 >
                   Email
                 </label>
@@ -112,7 +118,7 @@ function Contact() {
                   name="user_email"
                   value={formData.user_email}
                   onChange={handleInputChange}
-                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full dark:text-black bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-black py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
@@ -120,7 +126,7 @@ function Contact() {
               <div className="relative">
                 <label
                   htmlFor="message"
-                  className="leading-7 text-sm text-gray-600"
+                  className="leading-7 text-sm dark:text-white dark:font-bold text-gray-600"
                 >
                   Message
                 </label>
@@ -130,7 +136,7 @@ function Contact() {
                   name="user_message"
                   value={formData.user_message}
                   onChange={handleInputChange}
-                  className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  className="w-full dark:text-black bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 ></textarea>
               </div>
             </div>
@@ -143,9 +149,14 @@ function Contact() {
               </button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t text-black border-gray-200 text-center">
-              <p className="mb-1 font-bold text-base"> Joaquin Bianchi</p>
+              <p className="mb-1 font-extrabold text-base dark:text-white">
+                {" "}
+                Joaquin Bianchi
+              </p>
               <div className="mb-3">
-                <a className="">View Resume</a>
+                <a className="dark:text-[#a7a9be]  dark:hover:text-orange-500 cursor-pointer underline font-normal">
+                  View Resume
+                </a>
               </div>
 
               <span className="inline-flex">

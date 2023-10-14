@@ -7,20 +7,20 @@ import Image from "next/image";
 
 function About() {
   return (
-    <section className="container  mt-32  flex items-center  mx-auto">
-      <div className="flex flex-col gap-1">
+    <section className="container  mt-32  flex justify-center items-center">
+      <div className="flex flex-col gap-1 items-center">
         <h1
-          className="text-[4.0rem] leading-[3.7rem] text-slate font-Montserrat font-extrabold  flex items-center,
+          className="text-[5.0rem]  text-slate font-Montserrat font-extrabold  flex items-center,
         animate-text bg-gradient-to-r from-[#000000] via-[#f97316] to-[#f97316] bg-clip-text text-transparent
-        drop-shadow "
+        drop-shadow dark:bg-gradient-to-r dark:from-[#ff964b] dark:via-[#ff6a00] dark:to-[#f97316]"
         >
           Joaquin Bianchi
         </h1>
-        <h2 className="text-2xl mt-2 font-mono font-medium text-black typing-demo">
+        <h2 className="text-2xl -mt-3 font-mono dark:font-medium font-medium text-black dark:text-[#fffffe] typing-demo">
           Frontend Developer
         </h2>
         {/* text-wrap */}
-        <p className="text-xl sm:w-6/12 ml text-black text-left break-words font-Hind-Madurai drop-shadow text-wrap">
+        <p className="text-xl sm:w-6/12 ml dark:font-medium text-black text-left break-words font-Hind-Madurai drop-shadow dark:text-[#c5c7d9] text-wrap">
           Soy Joaquin adad dawdadw Lorem ipsum, dolor sit amet consectetur
           adipisicing elit. Incidunt esse eaque aperiam voluptate accusantium
           dolorum temporibus soluta error blanditiis facilis repellendus, qui
@@ -33,14 +33,6 @@ function About() {
             <SocialLinks size={"40px"}></SocialLinks>
           </div>
         </div>
-      </div>
-      <div className="hidden  xl:block xl:-ml-80">
-        <Image
-          src="/absurd_04.png"
-          alt="absurde image"
-          width={1000}
-          height={800}
-        ></Image>
       </div>
     </section>
   );

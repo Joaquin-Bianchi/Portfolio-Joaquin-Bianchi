@@ -6,7 +6,7 @@ function Nav() {
     <nav className="sticky top-1 md:top-8  flex items-center justify-center drop-shadow-lg z-10 ">
       <div
         className=" font-Montserrat uppercase flex items-center justify-center  gap-x-20 py-3 px-10 
-       border rounded-full border-gray-300 bg-white backdrop-filter backdrop-blur-3xl bg-opacity-[0.87]"
+       border rounded-full  dark:bg-white dark:backdrop-filter dark:backdrop-blur-3xl  dark:bg-opacity-[0.87] border-gray-300 bg-white backdrop-filter backdrop-blur-3xl bg-opacity-[0.87]"
       >
         <Link
           href={"/"}

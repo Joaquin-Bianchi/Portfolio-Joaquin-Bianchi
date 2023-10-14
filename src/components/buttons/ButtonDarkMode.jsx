@@ -1,10 +1,26 @@
-import React from "react";
+"use client";
+import { useEffect, useState } from "react";
 
 function ButtonDarkMode() {
+  const [theme, setTheme] = useState(() => {
+    return "light";
+  });
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.querySelector("html").classList.add("dark");
+    } else {
+      document.querySelector("html").classList.remove("dark");
+    }
+  }, [theme]);
+
+  const handleChangeTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  };
   return (
     <>
       <label className="ui-switch z-20">
-        <input type="checkbox" />
+        <input type="checkbox" onClick={handleChangeTheme} />
         <div className="slider">
           <div className="circle"></div>
         </div>
