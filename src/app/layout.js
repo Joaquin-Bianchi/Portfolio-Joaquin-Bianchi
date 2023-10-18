@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
         <title>Joaquin Bianchi | Portfolio</title>
         <link rel="icon" href="/favicon.png" />
       </head>
-      <body className="lg:mx-[250px] mx-[10px]  bg-white dark:bg-bg">
+      <body className="lg:mx-[250px] mx-[10px] bg-bg  dark:bg-[#0f0e17 dark:bg-zinc-950 ">
         <Toaster position="bottom-center" reverseOrder={false} />
         <Nav></Nav>
         {children}

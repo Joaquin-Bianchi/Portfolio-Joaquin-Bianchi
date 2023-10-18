@@ -34,48 +34,45 @@ function Skills() {
             FRONTEND
           </p>
           <article className="flex justify-center">
-            <div className="flex flex-wrap items-center justify-center   gap-12 text-8xl">
-              <tooltip content="HTML">
-                <div className="hover:text-orange-600  dark:text-orange-600 transition duration-300 ease-out ">
-                  <FaHtml5 />
-                </div>
-              </tooltip>
-              <tooltip content="CSS">
-                <div className="hover:text-blue-600  dark:text-blue-600  cursor-pointer transition duration-300 ease-out">
-                  <FaCss3Alt />
-                </div>
-              </tooltip>
+            <div className="flex flex-wrap items-center justify-center  dark:cursor-default  gap-12 text-8xl">
+              <div className="flex flex-col items-center hover:text-orange-600   dark:text-orange-600  ">
+                <FaHtml5 className="transition duration-300 ease-out " />
+                <span className="text-base font-bold">HTML </span>
+              </div>
 
-              <tooltip content="BOOTSTRAP">
-                <div className="hover:text-violet-600  dark:text-violet-600 cursor-pointer transition duration-300 ease-out">
-                  <SiBootstrap />
-                </div>
-              </tooltip>
-              <tooltip content="TAILWIND">
-                <div className="hover:text-cyan-400 dark:text-cyan-400  cursor-pointer transition duration-300 ease-out">
-                  <SiTailwindcss />
-                </div>
-              </tooltip>
-              <tooltip content="JAVASCRIPT">
-                <div className=" w-24 h-24     hover:text-[#ffee00] dark:text-[#ffee00]   cursor-pointer ">
-                  <SiJavascript className="hover:bg-black transition duration-300 ease-out" />
-                </div>
-              </tooltip>
-              <tooltip content="REACT">
-                <div className="hover:text-cyan-400  dark:text-cyan-400  cursor-pointer transition duration-300 ease-out">
-                  <SiReact />
-                </div>
-              </tooltip>
-              <tooltip content="TYPESCRIPT">
-                <div className="  hover:text-[#00a2ff] dark:text-[#00a2ff]   cursor-pointer ">
-                  <SiTypescript className="transition duration-300 ease-out" />
-                </div>
-              </tooltip>
-              <tooltip content="NEXT-JS">
-                <div className="w-24 h-24 hover:bg-black rounded-full  cursor-pointer transition duration-300 ease-out flex items-center justify-center">
-                  <SiNextdotjs className=" hover:text-white  transition duration-300 ease-out" />
-                </div>
-              </tooltip>
+              <div className="flex flex-col items-center hover:text-blue-600  dark:text-blue-600">
+                <FaCss3Alt className="  cursor-pointer transition duration-300 ease-out" />
+                <span className="text-base font-bold">CSS </span>
+              </div>
+
+              <div className="flex flex-col items-center hover:text-violet-600  dark:text-violet-600">
+                <SiBootstrap className="flex flex-col items-center hover:text-violet-600  dark:text-violet-600 cursor-pointer transition duration-300 ease-out" />
+                <span className="text-base font-bold">BOOSTRAP </span>
+              </div>
+
+              <div className="flex flex-col items-center hover:text-cyan-400">
+                <SiTailwindcss className=" hover:text-cyan-400 dark:text-cyan-400  cursor-pointer transition duration-300 ease-out" />
+                <span className="text-base font-bold dark:text-cyan-400">
+                  TAILWIND
+                </span>
+              </div>
+
+              <div className=" flex flex-col items-center  ">
+                <SiJavascript className="hover:bg-black transition duration-300 ease-out  hover:text-[#ffee00] dark:text-[#ffee00]   cursor-pointer " />
+                <span className="hover:text-black dark:text-[#ffee00]  text-base font-bold">
+                  JAVASCRIPT
+                </span>
+              </div>
+
+              <div className=" flex flex-col  hover:text-cyan-400  dark:text-cyan-400  cursor-pointer transition duration-300 ease-out items-center">
+                <SiReact className="" />
+                <span className="text-base font-bold">REACT </span>
+              </div>
+
+              <div className="flex flex-col items-center  transition duration-300 ease-out  hover:text-[#00a2ff] dark:text-[#00a2ff] ">
+                <SiTypescript className=" cursor-pointer" />
+                <span className="text-base font-bold">TYPESCRIPT </span>
+              </div>
             </div>
           </article>
           <p className="flex items-center  font-Montserrat font-semibold text-lg justify-center mt-10 mb-9">
@@ -83,36 +80,35 @@ function Skills() {
           </p>
           <article className="flex justify-center">
             <div className="flex flex-wrap items-center justify-center  gap-12 text-8xl">
-              <toltip content="GIT">
-                <div className="hover:text-orange-600  dark:text-orange-600  cursor-pointer  transition duration-300 ease-out ">
-                  <BsGit />
-                </div>
-              </toltip>
-              <toltip content="GITHUB">
-                <div className="hover:text-zinc-700  dark:text-white   cursor-pointer transition duration-300 ease-out">
-                  <FaGithub />
-                </div>
-              </toltip>
-              <toltip content="JIRA">
-                <div className="hover:text-blue-600 dark:text-blue-600 cursor-pointer transition duration-300 ease-out">
-                  <SiJirasoftware />
-                </div>
-              </toltip>
-              <toltip content="NOTION">
-                <div className="hover:opacity-60  dark:text-white cursor-pointer transition duration-300 ease-out">
-                  <RiNotionFill />
-                </div>
-              </toltip>
-              <toltip content="NPM">
-                <div className="hover:text-red-500  dark:text-red-500 cursor-pointer transition duration-300 ease-out">
-                  <FaNpm />
-                </div>
-              </toltip>
-              <toltip content="FIGMA">
-                <div className="hover:text-rose-500 dark:text-rose-500    cursor-pointer transition duration-300 ease-out">
-                  <FaFigma />
-                </div>
-              </toltip>
+              <div className="flex flex-col items-center hover:text-orange-600  dark:text-orange-600  cursor-pointer  transition duration-300 ease-out ">
+                <BsGit />
+                <span className="text-base font-bold">GIT </span>
+              </div>
+
+              <div className="flex flex-col items-center hover:text-zinc-700  dark:text-white   cursor-pointer transition duration-300 ease-out">
+                <FaGithub />
+                <span className="text-base font-bold">GITHUB </span>
+              </div>
+
+              <div className=" flex flex-col items-center hover:text-blue-600 dark:text-blue-600 cursor-pointer transition duration-300 ease-out">
+                <SiJirasoftware />
+                <span className="text-base font-bold"> JIRA </span>
+              </div>
+
+              <div className="hover:opacity-60 dark:hover:opacity-100  flex flex-col items-center dark:text-white cursor-pointer transition duration-300 ease-out">
+                <RiNotionFill />
+                <span className="text-base font-bold">NOTION </span>
+              </div>
+
+              <div className="hover:text-red-500  flex flex-col items-center dark:text-red-500 cursor-pointer transition duration-300 ease-out">
+                <FaNpm />
+                <span className="text-base font-bold">NPM </span>
+              </div>
+
+              <div className="hover:text-rose-500 flex flex-col items-center dark:text-rose-500    cursor-pointer transition duration-300 ease-out">
+                <FaFigma />
+                <span className="text-base font-bold"> FIGMA </span>
+              </div>
             </div>
           </article>
         </div>

@@ -7,20 +7,23 @@ import Image from "next/image";
 
 function About() {
   return (
-    <section className="container  mt-32  flex justify-center items-center">
+    <section className="container  mt-32  flex  m-auto">
       <div className="flex flex-col gap-1 items-center">
+        <p className="text-3xl -mb-5 items-start drop-shadow-md dark:text-white font-Montserrat">
+          <span className="text-orange-500"> Hi,</span> I'm
+        </p>
         <h1
-          className="text-[5.0rem]  text-slate font-Montserrat font-extrabold  flex items-center,
-        animate-text bg-gradient-to-r from-[#000000] via-[#f97316] to-[#f97316] bg-clip-text text-transparent
-        drop-shadow dark:bg-gradient-to-r dark:from-[#ff964b] dark:via-[#ff6a00] dark:to-[#f97316]"
+          className="text-[5.0rem]  font-Montserrat font-extrabold  flex items-center
+        animate-text gap-2  dark:text-transparent drop-shadow dark:text-white  "
         >
-          Joaquin Bianchi
+          Joaquin
+          <span className="text-orange-500 "> Bianchi</span>
         </h1>
-        <h2 className="text-2xl -mt-3 font-mono dark:font-medium font-medium text-black dark:text-[#fffffe] typing-demo">
+        <h2 className="text-3xl uppercase font-Montserrat -mt-3  dark:font-medium  text-black dark:text-[#fffffe] typing-demo">
           Frontend Developer
         </h2>
         {/* text-wrap */}
-        <p className="text-xl sm:w-6/12 ml dark:font-medium text-black text-left break-words font-Hind-Madurai drop-shadow dark:text-[#c5c7d9] text-wrap">
+        <p className="text-xl sm:w-6/12 ml dark:font-medium text-black text-left break-words font-Hind-Madurai drop-shadow dark:text-[#cdcdcd] text-wrap">
           Soy Joaquin adad dawdadw Lorem ipsum, dolor sit amet consectetur
           adipisicing elit. Incidunt esse eaque aperiam voluptate accusantium
           dolorum temporibus soluta error blanditiis facilis repellendus, qui

@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        text: "text 3.2s ease infinite",
+        text: "text 7.2s ease infinite",
       },
       keyframes: {
         text: {
@@ -25,16 +25,14 @@ module.exports = {
         },
       },
       colors: {
-        bg: "#0f0e17",
+        bg: "#E4E4E4",
         "semi-slate": "#EEF1EF",
         violeta: "#011627",
         "black-opaque": "#0f172a",
       },
       fontFamily: {
         "Hind-Madurai": ["Hind Madurai", "sans-serif"],
-        Lusitana: ["Lusitana", "serif"],
         Montserrat: ["Montserrat", "sans-serif"],
-        Oswald: ["Oswald", "sans-serif"],
       },
     },
   },

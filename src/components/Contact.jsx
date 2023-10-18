@@ -56,8 +56,8 @@ function Contact() {
             Contact
           </h2>
           <Loader />
-          <p className="dark:text-[#a7a9be] items-center font-Hind-Madurai drop-shadow              flex flex-col font-Hind Madurai  mt-6 text-black">
-            <span className="font-bold text-lg dark:text-[#a7a9be]">
+          <p className=" dark:text-[#cdcdcd]  items-center font-Hind-Madurai drop-shadow flex flex-col font-Hind Madurai  mt-6 text-black">
+            <span className="font-bold text-lg  dark:text-[#cdcdcd]">
               Want to work with me?
             </span>
             <span className="dark:text-[#a7a9be]">Send message to </span>
@@ -95,7 +95,7 @@ function Contact() {
                   name="user_name"
                   value={formData.user_name}
                   onChange={handleInputChange}
-                  className="w-full dark:text-black bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full dark:text-black bg-gray-50 bg-opacity-50 rounded border border-black  focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
@@ -118,7 +118,7 @@ function Contact() {
                   name="user_email"
                   value={formData.user_email}
                   onChange={handleInputChange}
-                  className="w-full dark:text-black bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-black py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full dark:text-black border border-black  bg-gray-100 bg-opacity-50 rounded  focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-black py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
               </div>
             </div>
@@ -136,7 +136,7 @@ function Contact() {
                   name="user_message"
                   value={formData.user_message}
                   onChange={handleInputChange}
-                  className="w-full dark:text-black bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  className="w-full dark:text-black bg-gray-100 bg-opacity-50 rounded  border border-black  focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 ></textarea>
               </div>
             </div>
