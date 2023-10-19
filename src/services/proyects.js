@@ -13,7 +13,7 @@ const proyects = [
       "Descripción del Proyecto 2. Gastropub street art   Gastropub street  Gastropub streetbeard dreamcatcher neutra, ethical XOXO lumbersexual.",
     Imagen: "assets/blog.png",
     LinkRepo: "https://github.com/repositorio/proyecto2",
-    LinkDemo: "https://demo.proyecto2.com",
+    LinkDemo: "https://github.com/Joaquin-Bianchi/practica-blog-react",
   },
   {
     ProjectName: "Task App",
