@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 function SocialLinks({ size }) {
   return (
     <div className="flex z-20">
-      <div className="flex items-center gap-2 dark:text-white">
+      <div className="flex items-center  text-3xl  lg:text-4xl gap-2 dark:text-white">
         <a
           href="https://github.com/Joaquin-Bianchi"
           target="_blank"

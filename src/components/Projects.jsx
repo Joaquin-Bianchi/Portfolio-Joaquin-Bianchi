@@ -21,7 +21,7 @@ function Projects({}) {
             </div>
           </div>
           {/* crear componente */}
-          <div className="flex flex-wrap ">
+          <div className="flex flex-wrap gap-6 justify-center ">
             {proyects.map((project, index) => (
               <ProjectCard
                 key={index}
