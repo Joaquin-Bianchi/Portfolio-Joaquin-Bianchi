@@ -12,13 +12,15 @@ function About() {
         <p className="text-2xl lg:text-3xl -mb-5 items-start drop-shadow-md dark:text-white font-Montserrat">
           <span className="text-orange-500"> Hi,</span> I'm
         </p>
-        <h1
-          className=" text-[2.8rem] lg:text-[5.0rem]  font-Montserrat font-extrabold  flex items-center
+        <div>
+          <h1
+            className="text-[2.5rem] mt-2 sm:mt-0 sm:text-[3.0rem] md:text-[3.5rem]  lg:text-[4.0rem]  xl:text-[4.5rem]   2xl:text-[5.rem]   font-Montserrat font-extrabold  flex items-center
         animate-text gap-2  dark:text-transparent drop-shadow dark:text-white "
-        >
-          Joaquin
-          <span className="text-orange-500 "> Bianchi</span>
-        </h1>
+          >
+            Joaquin
+            <span className="text-orange-500 "> Bianchi</span>
+          </h1>
+        </div>
         <h2 className="text-xl lg:text-3xl uppercase font-Montserrat -mt-3  dark:font-medium  text-black dark:text-[#fffffe] typing-demo">
           Frontend Developer
         </h2>

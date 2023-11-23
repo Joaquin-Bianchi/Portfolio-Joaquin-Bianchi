@@ -51,8 +51,8 @@ function Contact() {
   return (
     <section className="text-gray-600 body-font relative">
       <div className="mt-24 mx-auto">
-        <div className="flex flex-col text-center w-[199px] justify-center m-auto mb-12">
-          <h2 className="sm:w-2/5 flex items-center dark:text-white text-gray-900 font-Montserrat font-extrabold title-font text-5xl sm:mb-0">
+        <div className="flex flex-col text-center w-[151px] lg:w-[199px] justify-center m-auto mb-12">
+          <h2 className="sm:w-2/5 flex items-center dark:text-white text-gray-900 font-Montserrat font-extrabold title-font text-4xl lg:text-5xl sm:mb-0">
             Contact
           </h2>
           <Loader />
@@ -70,7 +70,7 @@ function Contact() {
             or use the contact form.
           </p>
         </div>
-        <div className="lg:w-1/2 md:w-2/3 mx-auto">
+        <div className="lg:w-1/2 2xl:w-2/5 xl:w-1/2 md:w-1/2 mx-auto">
           <form
             ref={form}
             onSubmit={sendEmail}
@@ -136,14 +136,14 @@ function Contact() {
                   name="user_message"
                   value={formData.user_message}
                   onChange={handleInputChange}
-                  className="w-full dark:text-black bg-gray-100 bg-opacity-50 rounded  border border-black  focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  className="w-full dark:text-black bg-gray-100 bg-opacity-50 rounded  border border-black  focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 h-52 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 ></textarea>
               </div>
             </div>
             <div className="p-2 w-full">
               <button
                 type="submit"
-                className="flex mx-auto text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg"
+                className="flex rounded-lg mx-auto text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600  text-lg"
               >
                 Send
               </button>

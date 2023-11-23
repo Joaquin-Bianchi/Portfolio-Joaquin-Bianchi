@@ -1,7 +1,8 @@
 "use client";
-import Nav from "@/components/Nav";
+import NavbarDesktop from "@/components/NavbarDesktop";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
+import NavbarMobile from "@/components/NavbarMobile";
 
 export default function RootLayout({ children }) {
   return (
@@ -10,9 +11,10 @@ export default function RootLayout({ children }) {
         <title>Joaquin Bianchi | Portfolio</title>
         <link rel="icon" href="/favicon.png" />
       </head>
-      <body className="lg:mx-[20px] mx-[10px] bg-bg  dark:bg-[#0f0e17 dark:bg-zinc-950 ">
+      <body className=" bg-bg  dark:bg-[#0f0e17 dark:bg-zinc-950 ">
         <Toaster position="bottom-center" reverseOrder={false} />
-        <Nav></Nav>
+        <NavbarDesktop></NavbarDesktop>
+        <NavbarMobile></NavbarMobile>
         {children}
       </body>
     </html>
