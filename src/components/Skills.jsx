@@ -30,11 +30,11 @@ function Skills() {
               </div>
             </div>
           </div>
-          <p className="flex items-center font-Montserrat font-semibold text-lg justify-center mb-9">
+          <p className="flex items-center font-Montserrat font-semibold text-base mt-8 md:text-lg justify-center mb-9">
             FRONTEND
           </p>
           <article className="flex justify-center">
-            <div className="flex flex-wrap items-center justify-center  dark:cursor-default  gap-12 text-8xl">
+            <div className="flex flex-wrap items-center justify-center  dark:cursor-default  gap-12 text-7xl md:text-8xl">
               <div className="flex flex-col items-center hover:text-orange-600   dark:text-orange-600  ">
                 <FaHtml5 className="transition duration-300 ease-out " />
                 <span className="text-base font-bold">HTML </span>
@@ -75,11 +75,11 @@ function Skills() {
               </div>
             </div>
           </article>
-          <p className="flex items-center  font-Montserrat font-semibold text-lg justify-center mt-10 mb-9">
+          <p className="flex items-center  font-Montserrat font-semibold text-base  md:text-lg justify-center mt-10 mb-9">
             TOOLS
           </p>
           <article className="flex justify-center">
-            <div className="flex flex-wrap items-center justify-center  gap-12 text-8xl">
+            <div className="flex flex-wrap items-center justify-center  gap-12 text-7xl md:text-8xl">
               <div className="flex flex-col items-center hover:text-orange-600  dark:text-orange-600  cursor-pointer  transition duration-300 ease-out ">
                 <BsGit />
                 <span className="text-base font-bold">GIT </span>
