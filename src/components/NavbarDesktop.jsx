@@ -12,7 +12,7 @@ function NavDesktop() {
           href={"/"}
           className="text-sm  transition duration-300 ease-out hover:text-orange-500"
         >
-          Home
+          Inicio
         </Link>
         <a
           href="#skills"
@@ -24,13 +24,13 @@ function NavDesktop() {
           href={"/projects"}
           className="text-sm   transition duration-300 ease-out hover:text-orange-500"
         >
-          Projects
+          Proyectos
         </Link>
         <a
           href="#contact"
           className="text-sm  transition duration-300 ease-out hover:text-orange-500"
         >
-          Contact
+          Contacto
         </a>
       </div>
     </nav>

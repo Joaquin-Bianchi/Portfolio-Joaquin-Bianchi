@@ -10,7 +10,7 @@ function About() {
     <section className="container  mt-32  flex  m-auto">
       <div className="flex flex-col gap-1 items-center">
         <p className="text-2xl lg:text-3xl -mb-5 items-start drop-shadow-md dark:text-white font-Montserrat">
-          <span className="text-orange-500"> Hi,</span> I'm
+          <span className="text-orange-500"> Hola,</span> Soy
         </p>
         <div>
           <h1
