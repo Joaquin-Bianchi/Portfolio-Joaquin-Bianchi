@@ -8,15 +8,15 @@ const experiencia = [
     LinkDemo: "https://no-country-comfy.vercel.app/",
   },
   {
-    ProjectName: "Image Generator IA (in Progress...)",
+    ProjectName: "Garden Wise (Cuidado de plantas)",
     Description:
       "Descripción del Proyecto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. tetur adipiscing elit.tetur adipiscing elit.",
-    Imagen: "assets/process.png",
-    LinkRepo: "https://github.com/Joaquin-Bianchi/nextjs-image-generator",
-    LinkDemo: "https://nextjs-image-generator.vercel.app",
+    Imagen: "assets/garden.png",
+    LinkRepo: "https://github.com/No-Country/S11-19-ft-php-next",
+    LinkDemo: "https://s11-19-ft-php-next.vercel.app/",
   },
   {
-    ProjectName: "Image Generator IA (in Progress...)",
+    ProjectName: "Music App",
     Description:
       "Descripción del Proyecto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. tetur adipiscing elit.tetur adipiscing elit.",
     Imagen: "assets/process.png",
