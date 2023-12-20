@@ -49,7 +49,7 @@ function Contact() {
   };
 
   return (
-    <section className="text-gray-600 body-font relative">
+    <section id="contact" className="text-gray-600 body-font relative">
       <div className="mt-24 mx-auto">
         <div className="flex flex-col text-center w-[151px] lg:w-[199px] justify-center m-auto mb-12">
           <h2 className="sm:w-2/5 flex items-center dark:text-white text-gray-900 font-Montserrat font-extrabold title-font text-4xl lg:text-5xl sm:mb-0">

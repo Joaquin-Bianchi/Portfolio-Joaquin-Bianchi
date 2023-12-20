@@ -14,7 +14,10 @@ function Projects({}) {
           <div className="flex flex-col">
             <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-6">
               <div className="flex flex-col gap-1 m-auto    md:m-0">
-                <h2 className="sm:w-2/5 flex items-center dark:text-white text-gray-900 font-Montserrat font-extrabold title-font  text-4xl lg:text-5xl mb-2 sm:mb-0">
+                <h2
+                  id="projects"
+                  className="sm:w-2/5 flex items-center dark:text-white text-gray-900 font-Montserrat font-extrabold title-font  text-4xl lg:text-5xl mb-2 sm:mb-0"
+                >
                   Proyectos
                 </h2>
                 <Loader />
@@ -41,7 +44,7 @@ function Projects({}) {
           <h4 className="flex justify-center  mt-32 dark:text-white font-Montserrat font-semibold  text-xl mb-10">
             Proyectos Personales
           </h4>
-          <div className="flex flex-wrap gap-6 justify-center">
+          <div  className="flex flex-wrap gap-6 justify-center">
             {proyects.map((project, index) => (
               <ProjectCard
                 key={index}

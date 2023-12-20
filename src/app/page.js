@@ -7,7 +7,7 @@ import Skills from "@/components/Skills";
 export default function Home() {
   return (
     <>
-      <main className="lg:mx-[20px] mx-[10px]">
+      <main className="lg:mx-[20px] mx-[10px] scroll-smooth">
         <SubTitle></SubTitle>
         <About></About>
         <Projects></Projects>

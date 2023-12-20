@@ -11,7 +11,7 @@ const experiencia = [
     ProjectName: "Garden Wise (Cuidado de plantas)",
     Description:
       "Descripción del Proyecto . Lorem ipsum dolor sit amet, consectetur adipiscing elit. tetur adipiscing elit.tetur adipiscing elit.",
-    Imagen: "assets/garden.png",
+    Imagen: "assets/gardenwise.jpg",
     LinkRepo: "https://github.com/No-Country/S11-19-ft-php-next",
     LinkDemo: "https://s11-19-ft-php-next.vercel.app/",
   },

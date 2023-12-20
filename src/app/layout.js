@@ -6,7 +6,7 @@ import NavbarMobile from "@/components/NavbarMobile";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="">
+    <html lang="en" className="scroll-smooth">
       <head>
         <title>Joaquin Bianchi | Portfolio</title>
         <link rel="icon" href="/favicon.png" />

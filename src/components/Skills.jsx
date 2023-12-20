@@ -17,7 +17,7 @@ import { RiNotionFill } from "react-icons/ri";
 import { FaCss3Alt, FaFigma, FaGithub, FaHtml5, FaNpm } from "react-icons/fa";
 function Skills() {
   return (
-    <div className="mt-2">
+    <div id="skills" className="mt-2">
       <section className="dark:text-white">
         <div className="container  mx-auto ">
           <div className="flex flex-col">
