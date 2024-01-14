@@ -35,7 +35,7 @@ function Skills() {
           </p>
           <article className="flex justify-center">
             <div className="flex flex-wrap items-center justify-center  dark:cursor-default  gap-12 text-7xl md:text-8xl">
-              <div className="flex flex-col items-center hover:text-orange-600   dark:text-orange-600  ">
+              {/* <div className="flex flex-col items-center hover:text-orange-600   dark:text-orange-600  ">
                 <FaHtml5 className="transition duration-300 ease-out " />
                 <span className="text-base font-bold">HTML </span>
               </div>
@@ -43,19 +43,7 @@ function Skills() {
               <div className="flex flex-col items-center hover:text-blue-600  dark:text-blue-600">
                 <FaCss3Alt className="  cursor-pointer transition duration-300 ease-out" />
                 <span className="text-base font-bold">CSS </span>
-              </div>
-
-              <div className="flex flex-col items-center hover:text-violet-600  dark:text-violet-600">
-                <SiBootstrap className="flex flex-col items-center hover:text-violet-600  dark:text-violet-600 cursor-pointer transition duration-300 ease-out" />
-                <span className="text-base font-bold">BOOSTRAP </span>
-              </div>
-
-              <div className="flex flex-col items-center hover:text-cyan-400">
-                <SiTailwindcss className=" hover:text-cyan-400 dark:text-cyan-400  cursor-pointer transition duration-300 ease-out" />
-                <span className="text-base font-bold dark:text-cyan-400">
-                  TAILWIND
-                </span>
-              </div>
+              </div> */}
 
               <div className=" flex flex-col items-center  ">
                 <SiJavascript className="hover:bg-black transition duration-300 ease-out  hover:text-[#ffee00] dark:text-[#ffee00]   cursor-pointer " />
@@ -63,12 +51,21 @@ function Skills() {
                   JAVASCRIPT
                 </span>
               </div>
+              <div className="flex flex-col items-center hover:text-cyan-400">
+                <SiTailwindcss className=" hover:text-cyan-400 dark:text-cyan-400  cursor-pointer transition duration-300 ease-out" />
+                <span className="text-base font-bold dark:text-cyan-400">
+                  TAILWIND
+                </span>
+              </div>
 
               <div className=" flex flex-col  hover:text-cyan-400  dark:text-cyan-400  cursor-pointer transition duration-300 ease-out items-center">
                 <SiReact className="" />
                 <span className="text-base font-bold">REACT </span>
               </div>
-
+              <div className=" flex flex-col  hover:text-gray-800  dark:text-white  cursor-pointer transition duration-300 ease-out items-center">
+                <SiNextdotjs />
+                <span className="text-base font-bold">NEXT JS</span>
+              </div>
               <div className="flex flex-col items-center  transition duration-300 ease-out  hover:text-[#00a2ff] dark:text-[#00a2ff] ">
                 <SiTypescript className=" cursor-pointer" />
                 <span className="text-base font-bold">TYPESCRIPT </span>
@@ -100,7 +97,7 @@ function Skills() {
                 <span className="text-base font-bold">NOTION </span>
               </div>
 
-              <div className="hover:text-red-500  flex flex-col items-center dark:text-red-500 cursor-pointer transition duration-300 ease-out">
+              {/* <div className="hover:text-red-500  flex flex-col items-center dark:text-red-500 cursor-pointer transition duration-300 ease-out">
                 <FaNpm />
                 <span className="text-base font-bold">NPM </span>
               </div>
@@ -108,7 +105,7 @@ function Skills() {
               <div className="hover:text-rose-500 flex flex-col items-center dark:text-rose-500    cursor-pointer transition duration-300 ease-out">
                 <FaFigma />
                 <span className="text-base font-bold"> FIGMA </span>
-              </div>
+              </div> */}
             </div>
           </article>
         </div>
