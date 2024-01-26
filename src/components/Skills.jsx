@@ -96,16 +96,6 @@ function Skills() {
                 <RiNotionFill />
                 <span className="text-base font-bold">NOTION </span>
               </div>
-
-              {/* <div className="hover:text-red-500  flex flex-col items-center dark:text-red-500 cursor-pointer transition duration-300 ease-out">
-                <FaNpm />
-                <span className="text-base font-bold">NPM </span>
-              </div>
-
-              <div className="hover:text-rose-500 flex flex-col items-center dark:text-rose-500    cursor-pointer transition duration-300 ease-out">
-                <FaFigma />
-                <span className="text-base font-bold"> FIGMA </span>
-              </div> */}
             </div>
           </article>
         </div>

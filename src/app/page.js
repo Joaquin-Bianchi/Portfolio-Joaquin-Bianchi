@@ -3,6 +3,7 @@ import Projects from "@/components/Projects";
 import About from "@/components/About";
 import SubTitle from "@/components/SubTitle";
 import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <main className="lg:mx-[20px] mx-[10px] scroll-smooth">
         <SubTitle></SubTitle>
         <About></About>
+        <Experience></Experience>
         <Projects></Projects>
         <Skills></Skills>
         <Contact></Contact>
