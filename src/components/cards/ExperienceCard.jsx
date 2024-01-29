@@ -1,34 +1,26 @@
 import React from "react";
-import { ButtonDemo, ButtonGitRepo } from "../buttons/SocialLinks";
 
-function ExperienceCard({
-  Description,
-  ProjectName,
-  Imagen,
-  LinkRepo,
-  LinkDemo,
-  alt,
-}) {
+function ExperienceCard({ Title, Description, Time, Image }) {
   return (
-    <div className="p-3 w-[85%]  md:w-[41%]  xl:w-[30%] sm:mb-0 mb-6 bg-white border-1 dark:text-white dark:bg-[#201e31 dark:bg-zinc-800 border-[1px] border-zinc-500  dark:border-[#bdbcbcba] flex flex-col  justify-between drop-shadow-xl">
-      <div className=" rounded-lg h-64 overflow-hidden">
-        <img
-          alt={alt}
-          className="object-cover object-center h-full w-full
-        transition duration-300 ease-in-out hover:scale-110"
-          // src="assets/next.jpg"
-          src={Imagen}
-        />
+    <div className="flex relative pt-10 pb-20 sm:items-center flex-col md:flex-row mx-auto">
+      <div className="h-full w-6 absolute inset-0 flex sm:items-center justify-center">
+        <div className="h-full sm:h-full  w-1.5 bg-orange-500 pointer-events-none"></div>
       </div>
-      <h2 className="text-xl   font-medium title-font text-gray-900 dark:text-[#fffffe] mt-5">
-        {ProjectName}
-      </h2>
-      <p className="text-base leading-relaxed dark:text-[#cdcdcd] mt-2 mb-4">
-        {Description}
-      </p>
-      <div className="flex items-center justify-between">
-        <ButtonGitRepo linkRepo={LinkRepo}></ButtonGitRepo>
-        <ButtonDemo linkDemo={LinkDemo}></ButtonDemo>
+      <div className="h-12 sm:h-full w-full sm:flex-shrink-0 md:w-64 mb-10  items-center rounded-lg py-3 px-3 justify-center bg-white text-black border border-black font-bold drop-shadow-md  relative z-10 ">
+        {Time}
+      </div>
+
+      <div className="flex-grow md:pl-8 pl-8 flex sm:items-center items-start flex-col sm:flex-row">
+        <div className="flex-shrink-0 w-24 h-24 bg-black rounded-full inline-flex items-center justify-center">
+          <img src={Image} className="w-full h-full" alt="" />
+        </div>
+
+        <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 className="font-bold title-font text-gray-900 dark:text-[#cdcdcd] mb-1 text-xl">
+            {Title}
+          </h2>
+          <p className="leading-relaxed dark:text-[#cdcdcd]">{Description}</p>
+        </div>
       </div>
     </div>
   );
