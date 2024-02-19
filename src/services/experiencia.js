@@ -1,18 +1,18 @@
 const experiencia = [
   {
-    Title: "Frontend Developer | Expresia DXP",
+    Title: "Frontend Developer | Expresia Dev Army",
     Time: "Diciembre 2023 | Actualmente",
     Description:
-      "Desarrollo de Templates, componentes dinámicos para ser utilizados dentro de la plataforma DXP (Digital Experience Platform), Mantenimiento de proyectos activos dentro de la plataforma",
-    Technologies: "",
+      "En Expresia, desempeño el rol de Frontend Developer en su Plataforma DXP (Digital Experience Platform), donde me encargo del desarrollo de Templates y componentes dinámicos. Mi labor consiste en crear o migar sitios webs interactivos dentro de la plataforma. Además, me responsabilizo del mantenimiento de proyectos ya activos en la plataforma, realizando refactorizaciones y mejoras para garantizar un rendimiento óptimo y una interfaz de usuario eficiente.",
+    Technologies: "HTML,CSS, JavaScript,, Handlebars js, React, Boostrap,",
     Image: "assets/expresia.png",
   },
   {
     Title: "Frontend Developer | No Country",
     Time: "Agosto 2023 | Diciembre 2023",
     Description:
-      "En No Country tuve la oportunidad de realizar una valiosa práctica en la que trabaje en equipo con otros desarrolladores y diseñadores",
-    Technologies: "",
+      "Durante mi práctica laboral en No Country, me centré en el desarrollo de WebApps, Creando componentes dinamicos, realizando integraciones de API REST y la implementación de diseños responsivos. Participé activamente en metodologías ágiles como SCRUM, asistiendo a Daily Meets y practicando Pair Programming. Además, utilicé herramientas como Jira y Trello para la gestion de tareas.",
+    Technologies: "JavaScript, React.js , Next.js, Tailwind, Git, Github",
     Image: "assets/nocountry.jpg",
   },
 ];

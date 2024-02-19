@@ -5,7 +5,6 @@ import ProjectCard from "./cards/ProjectCard";
 import Loader from "./cards/Loader";
 import proyects from "@/services/proyects";
 
-// refactorizar en componentes
 function Projects({}) {
   return (
     <div className="mt-20 dr">

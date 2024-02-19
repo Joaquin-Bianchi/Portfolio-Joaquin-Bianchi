@@ -14,6 +14,7 @@ function Experience() {
               key={index}
               Title={e.Title}
               Description={e.Description}
+              Technologies={e.Technologies}
               Time={e.Time}
               Image={e.Image}
               alt={e.Title}
