@@ -1,12 +1,12 @@
 const proyects = [
   {
-    ProjectName: "Personal Blog",
+    ProjectName: "Porto Sass",
     Description:
-      "Descripción del Proyecto 2. Gastropub street art   Gastropub street  Gastropub streetbeard dreamcatcher neutra, ethical XOXO lumbersexual.",
-    Imagen: "assets/blog.png",
+      "Este proyecto forma parte de mi experiencia en Expresia, Consta de un template Dinamico para la ser utilizado en la Plataforma Expresia",
+    Imagen: "assets/porto.jpg",
     Tags: "",
-    LinkRepo: "https://github.com/repositorio/proyecto2",
-    LinkDemo: "https://github.com/Joaquin-Bianchi/practica-blog-react",
+    LinkRepo: "https://github.com/Joaquin-Bianchi",
+    LinkDemo: "https://graymilkymarilith.xpr.cloud/",
   },
   {
     ProjectName: "Image Generator IA (in Progress...)",

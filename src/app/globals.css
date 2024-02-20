@@ -142,8 +142,8 @@ if there is 20 put 20 */
 }
 
 .typing-demo {
-  width: 18.8ch;
-  animation: typing 4s steps(92), blink 0.5s step-end infinite alternate;
+  width: 19ch;
+  animation: typing 4s steps(152), blink 700ms step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;

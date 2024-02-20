@@ -16,7 +16,6 @@ function ProjectCard({
           alt={alt}
           className="object-cover object-center h-full w-full
         transition duration-300 ease-in-out hover:scale-110"
-          // src="assets/next.jpg"
           src={Imagen}
         />
       </div>

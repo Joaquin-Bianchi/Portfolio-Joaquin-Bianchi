@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillFire } from "react-icons/ai";
-import { MdOutlineWork } from "react-icons/md";
+import { TbPointFilled } from "react-icons/tb";
 
 function ExperienceCard({ Title, Description, Time, Image, Technologies }) {
   return (
@@ -8,8 +8,10 @@ function ExperienceCard({ Title, Description, Time, Image, Technologies }) {
       <div className="h-full w-6 absolute inset-0 flex sm:items-center justify-center">
         <div className="h-full sm:h-full  w-1.5 bg-orange-500 pointer-events-none"></div>
       </div>
-      <div className="h-12 dr sm:h-full w-full sm:flex-shrink-0 md:w-64 mb-10  items-center rounded-lg py-3 px-3 justify-center bg-white text-black border border-black font-bold drop-shadow-md  relative z-10 ">
-        {Time}
+      <div>
+        <div className="h-12 dr sm:h-full w-full sm:flex-shrink-0 md:w-64 mb-10  items-center rounded-lg py-3 px-3 justify-center bg-white text-black border border-black font-bold drop-shadow-md  relative z-10 ">
+          {Time}
+        </div>
       </div>
 
       <div className="flex-grow  md:pl-8 pl-8 flex sm:items-center items-start flex-col sm:flex-row">
@@ -27,8 +29,11 @@ function ExperienceCard({ Title, Description, Time, Image, Technologies }) {
           <p className="leading text-black font-Hind-Madurai  lg:text-xl dark:text-[#cdcdcd]   ">
             {Description}
           </p>
-          <p className="mt-0.5 text-black dark:text-[#cdcdcd] font-medium">
-            <span className="font-extrabold">Tecnologias: </span>
+          <p className="flex gap-1 items-center mt-0.5 text-black dark:text-[#cdcdcd] font-medium">
+            <span className="font-extrabold flex items-center">
+              <TbPointFilled />
+              Tecnologias:{" "}
+            </span>
             {Technologies}
           </p>
         </div>
