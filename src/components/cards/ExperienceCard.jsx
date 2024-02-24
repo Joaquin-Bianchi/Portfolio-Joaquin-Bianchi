@@ -28,7 +28,7 @@ function ExperienceCard({
       </div>
 
       <div className="flex-grow  md:pl-8 pl-8 flex sm:items-center items-start flex-col sm:flex-row">
-        <div className="flex-shrink-0 w-24 h-24 bg-black rounded-full inline-flex items-center justify-center">
+        <div className="flex-shrink-0 ml-3 md:ml-0 w-24 h-24 bg-black rounded-full inline-flex items-center justify-center">
           <img src={Image} className="drop-shadow w-full h-full" alt="" />
         </div>
 
@@ -46,7 +46,7 @@ function ExperienceCard({
           <p className=" text-black font-Hind-Madurai  lg:text-lg dark:text-[#cdcdcd]  ">
             {Description}
           </p>
-          <p className="flex gap-2 items-center mt-0.5 text-black dark:text-[#cdcdcd] font-medium">
+          <p className="flex gap-3 mt-2 lg:gap2 items-center lg:mt-0.5 text-black dark:text-[#cdcdcd] font-medium">
             <span className="font-bold  flex items-center">
               <TbPointFilled />
               Tecnologias:

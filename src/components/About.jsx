@@ -2,6 +2,7 @@ import React from "react";
 import ButtonCv from "./buttons/ButtonCv";
 import SocialLinks from "./buttons/SocialLinks";
 import Image from "next/image";
+import { GiHand } from "react-icons/gi";
 
 // import MeetCard from "./cards/MeetCard";
 
@@ -9,8 +10,10 @@ function About() {
   return (
     <section className="container   mt-32  flex  m-auto">
       <div className="flex flex-col gap-1 items-center">
-        <p className="animate-fade-in text-2xl lg:text-3xl -mb-5 items-start drop-shadow-md dark:text-white font-Montserrat">
-          <span className="text-orange-500 ">Hola,</span> Soy
+        <p className="flex items-center animate-fade-in text-2xl lg:text-3xl -mb-5 drop-shadow-md dark:text-white font-Montserrat">
+          <span className="text-orange-500 ">Hola</span>
+          <GiHand className="animate-tada duration-5000 text-5xl ml-1 mr-2" />{" "}
+          Soy
         </p>
         <div>
           <h1

@@ -1,10 +1,22 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
-
+import { MdContactPage } from "react-icons/md";
 function SocialLinks({ size }) {
   return (
     <div className="flex z-20">
       <div className="flex items-center  text-3xl  lg:text-4xl gap-2 dark:text-white">
+        <a
+          className="lg:hidden"
+          href="https://flowcv.com/resume/pqls7i3bt6"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MdContactPage
+            className="transition ease-in-out hover:text-orange-500
+            duration-300"
+            size={size}
+          ></MdContactPage>
+        </a>
         <a
           href="https://github.com/Joaquin-Bianchi"
           target="_blank"

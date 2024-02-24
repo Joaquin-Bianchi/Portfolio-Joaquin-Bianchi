@@ -19,7 +19,7 @@ function ButtonDarkMode() {
   };
   return (
     <>
-      <label className="ui-switch z-20">
+      <label className="ui-switch z-20 animate-fade-in animate-delay-100">
         <input type="checkbox" onClick={handleChangeTheme} />
         <div className="slider">
           <div className="circle"></div>
