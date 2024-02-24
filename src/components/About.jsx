@@ -3,6 +3,7 @@ import ButtonCv from "./buttons/ButtonCv";
 import SocialLinks from "./buttons/SocialLinks";
 import Image from "next/image";
 import { GiHand } from "react-icons/gi";
+import { MdWavingHand } from "react-icons/md";
 
 // import MeetCard from "./cards/MeetCard";
 
@@ -10,10 +11,10 @@ function About() {
   return (
     <section className="container   mt-32  flex  m-auto">
       <div className="flex flex-col gap-1 items-center">
-        <p className="flex items-center animate-fade-in text-2xl lg:text-3xl -mb-5 drop-shadow-md dark:text-white font-Montserrat">
-          <span className="text-orange-500 ">Hola</span>
-          <GiHand className="animate-tada duration-5000 text-5xl ml-1 mr-2" />{" "}
-          Soy
+        <p className="flex items-center animate-fade-in text-2xl lg:text-3xl -mb-5 dark:text-white font-Montserrat">
+          <span className="text-orange-500 drop-shadow-md ">Hola</span>
+          <GiHand className="text-black dark:text-[#f3ddca] animate-tada animate-duration-[3000ms] text-5xl ml-1 mr-2" />{" "}
+          <span className="drop-shadow-md"> Soy</span>
         </p>
         <div>
           <h1
