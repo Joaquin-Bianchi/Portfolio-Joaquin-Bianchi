@@ -18,6 +18,7 @@ function Experience() {
               Time={e.Time}
               Image={e.Image}
               alt={e.Title}
+              Index={index}
             />
           ))}
         </div>
