@@ -2,7 +2,7 @@ const proyects = [
   {
     ProjectName: "Porto Sass",
     Description:
-      "Este proyecto forma parte de mi experiencia en Expresia, Consta de un template Dinamico para la ser utilizado en la Plataforma Expresia",
+      "Este proyecto forma parte de mi experiencia en Expresia, Consta de un template Dinamico para la ser utilizado en la Plataforma DXP de Expresia",
     Imagen: "assets/porto.jpg",
     Tags: "",
     LinkRepo: "https://github.com/Joaquin-Bianchi",

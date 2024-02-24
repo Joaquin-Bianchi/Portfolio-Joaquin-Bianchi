@@ -141,7 +141,7 @@ if there is 20 put 20 */
   place-items: center;
 }
 
-.typing-demo {
+/* .typing-demo {
   width: 19ch;
   animation: typing 4s steps(152), blink 700ms step-end infinite alternate;
   white-space: nowrap;
@@ -149,7 +149,7 @@ if there is 20 put 20 */
   border-right: 3px solid;
   font-family: monospace;
   font-size: 2em;
-}
+} */
 
 @keyframes typing {
   from {

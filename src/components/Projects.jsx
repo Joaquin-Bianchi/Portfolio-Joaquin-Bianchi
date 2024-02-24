@@ -8,7 +8,7 @@ import proyects from "@/services/proyects";
 function Projects({}) {
   return (
     <div className="mt-20 dr">
-      <section className=" body-font">
+      <section className="animate-fade-in animate-delay-500 body-font">
         <div className="container  py-24 mx-auto ">
           <div className="flex flex-col">
             <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-6">

@@ -1,3 +1,4 @@
+import animations from "@midudev/tailwind-animations";
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -37,6 +38,7 @@ module.exports = {
     },
   },
   darkMode: "class",
+  plugins: [animations],
 };
 // font-family: 'Hind Madurai', sans-serif;
 // font-family: 'Lusitana', serif;

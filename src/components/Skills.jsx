@@ -18,7 +18,7 @@ import { FaCss3Alt, FaFigma, FaGithub, FaHtml5, FaNpm } from "react-icons/fa";
 function Skills() {
   return (
     <div id="skills" className="mt-2">
-      <section className="dark:text-white">
+      <section className="dark:text-white animate-fade-in animate-delay-500">
         <div className="container  mx-auto ">
           <div className="flex flex-col">
             <div className="flex flex-wrap sm:flex-row flex-col mb-2">
