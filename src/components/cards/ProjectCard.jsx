@@ -10,7 +10,10 @@ function ProjectCard({
   alt,
 }) {
   return (
-    <div className="p-3 w-[85%]  md:w-[41%]  xl:w-[30%] sm:mb-0 mb-6 bg-white border-1 dark:text-white dark:bg-[#201e31 dark:bg-zinc-800 border-[1px] border-zinc-500  dark:border-[#bdbcbcba] flex flex-col  justify-between drop-shadow-xl">
+    <div
+      className="p-3 w-[85%]  md:w-[41%]  xl:w-[30%] sm:mb-0 mb-6 bg-white border-1 dark:text-white dark:bg-[#201e31 dark:bg-zinc-800 border-[1px] border-zinc-500 
+     dark:border-[#bdbcbcba] flex flex-col justify-between drop-shadow-xl"
+    >
       <div className=" rounded-lg h-64 overflow-hidden">
         <img
           alt={alt}
