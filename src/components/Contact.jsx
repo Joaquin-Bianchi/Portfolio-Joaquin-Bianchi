@@ -3,7 +3,6 @@ import React, { useRef, useState } from "react";
 import SocialLinks from "./buttons/SocialLinks";
 import Loader from "./cards/Loader";
 import emailjs from "@emailjs/browser";
-import ButtonCv from "./buttons/ButtonCv";
 import { toast } from "react-hot-toast";
 function Contact() {
   const form = useRef();
@@ -157,8 +156,11 @@ function Contact() {
                 Joaquin Bianchi
               </p>
               <div className="mb-3">
-                <a className="dark:text-[#a7a9be]  dark:hover:text-orange-500 cursor-pointer underline font-normal">
-                  View Resume
+                <a
+                  href="https://flowcv.com/resume/pqls7i3bt6"
+                  className="dark:text-[#a7a9be] hover:text-orange-500  dark:hover:text-orange-500 cursor-pointer underline font-normal"
+                >
+                  Descargar CV
                 </a>
               </div>
 
