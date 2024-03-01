@@ -1,6 +1,6 @@
 import React from "react";
 import { ButtonDemo, ButtonGitRepo } from "../buttons/SocialLinks";
-
+import { TbPointFilled } from "react-icons/tb";
 function ProjectCard({
   Description,
   ProjectName,
@@ -22,7 +22,8 @@ function ProjectCard({
           src={Imagen}
         />
       </div>
-      <h2 className="text-xl   font-medium title-font text-gray-900 dark:text-[#fffffe] mt-5">
+      <h2 className="text-xl flex items-center font-Montserrat text-wrap font-medium title-font text-gray-900 dark:text-[#fffffe] mt-5">
+        <TbPointFilled className="text-orange-400" />
         {ProjectName}
       </h2>
       <p className="text-base leading-relaxed dark:text-[#cdcdcd] mt-2 mb-4">

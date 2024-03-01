@@ -11,7 +11,7 @@ const proyects = [
   {
     ProjectName: "Porto Sass",
     Description:
-      "Este proyecto forma parte de mi experiencia en Expresia. Consiste en un template dinámico diseñado para ser utilizado en la Plataforma DXP de Expresia, enfocado en la personalización y la adaptabilidad del contenido para diferentes usuarios y necesidades.",
+      "Consiste en un template dinámico diseñado para ser utilizado en la Plataforma DXP de Expresia, enfocado en la personalización y la adaptabilidad del contenido para diferentes usuarios y necesidades.",
     Imagen: "assets/porto.jpg",
     Tags: "",
     LinkRepo: "https://github.com/Joaquin-Bianchi",
@@ -20,7 +20,7 @@ const proyects = [
   {
     ProjectName: "Garden Wise",
     Description:
-      "es una WebApp para creada para facilitar el cuidado y regado de planas, tambien forma parte de las emulaciones laborales de No Country, se ha desarrollado utilizando tecnologías como Next js, React, Taiwind y Laravel para el Backend  ",
+      "WebApp creada para facilitar el cuidado y regado de planas, tambien forma parte de las emulaciones laborales de No Country, se ha desarrollado utilizando tecnologías como Next js, React, Taiwind y Laravel para el Backend  ",
     Imagen: "assets/gardenwise.jpg",
     Tags: "",
     LinkRepo: "https://github.com/No-Country/S11-19-ft-php-next",
