@@ -3,7 +3,7 @@ import ButtonDarkMode from "./buttons/ButtonDarkMode";
 
 function NavbarMobile() {
   return (
-    <header className="bg-white dark:bg-zinc-800 md:hidden sticky  ">
+    <header className=" bg-white dark:bg-zinc-800 md:hidden sticky  ">
       <div className="mx-auto flex h-16  border  dark:border-zinc-900 border-black items-center gap-8 px-4 sm:px-6 lg:px-8">
         <a className="text-black" href="/">
           <span className="sr-only">Home</span>

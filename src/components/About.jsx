@@ -13,19 +13,19 @@ function About() {
       <div className="flex flex-col gap-1 items-center ">
         <p className="flex items-center animate-fade-in text-2xl lg:text-3xl -mb-5 dark:text-white font-Montserrat">
           <span className="text-orange-500 drop-shadow-md ">Hola</span>
-          <GiHand className="text-black dark:text-[#f3ddca] animate-tada animate-duration-[4000ms] text-[3.5rem] ml-1 mr-2" />{" "}
+          <GiHand className="text-black dark:text-[#f3ddca] animate-tada animate-duration-[4000ms] text-[2.8rem] ml-1 mr-2" />{" "}
           <span className="drop-shadow-md"> Soy</span>
         </p>
         <div>
           <h1
-            className="animate-fade-in-up animate-delay-200 text-[3.5rem] mt-2 sm:mt-0 sm:text-[3.7rem] md:text-[3.9rem]  lg:text-[4.0rem]  xl:text-[4.5rem]   2xl:text-[5.rem]   font-Montserrat font-extrabold  flex items-center
+            className="animate-fade-in-up animate-delay-200 text-[2.7rem] mt-2 sm:mt-0 sm:text-[3.7rem] md:text-[3.9rem]  lg:text-[4.0rem]  xl:text-[4.5rem]   2xl:text-[5.rem]   font-Montserrat font-extrabold  flex items-center
              gap-2  dark:text-transparent drop-shadow dark:text-white "
           >
             Joaquín
             <span className="text-orange-500">Bianchi</span>
           </h1>
         </div>
-        <h2 className="animate-fade-in animate-delay-400 text-2xl lg:text-3xl uppercase font-Montserrat -mt-3  dark:font-medium  text-black dark:text-[#fffffe] typing-demo">
+        <h2 className="animate-fade-in animate-delay-400 text-xl lg:text-3xl uppercase font-Montserrat -mt-3  dark:font-medium  text-black dark:text-[#fffffe] typing-demo">
           Frontend Developer
         </h2>
         {/* text-wrap */}
@@ -65,7 +65,7 @@ function About() {
           <div className="hidden lg:flex">
             <ButtonCv></ButtonCv>
           </div>
-          <div className="ml-5 mt-1">
+          <div className=" mt-1">
             <SocialLinks></SocialLinks>
           </div>
         </div>
