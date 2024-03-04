@@ -30,7 +30,7 @@ function About() {
         </h2>
         {/* text-wrap */}
 
-        <p className="animate-fade-in animate-delay-500 text-base md:text-lg mt-2 ml-10 lg:ml-5 text-left  lg:text-xl sm:w-6/12 dark:font-medium  text-black lg:text-left   font-Hind-Madurai drop-shadow dark:text-[#cdcdcd] ">
+        <p className="items-center text-wrap animate-fade-in animate-delay-500 text-base md:text-lg mt-2 lg:ml-5 text-left  lg:text-xl sm:w-6/12 dark:font-medium  text-black lg:text-left   font-Hind-Madurai drop-shadow dark:text-[#cdcdcd] ">
           En 2021 comencé a estudiar una
           <b className="font-bold"> Tecnicatura en Desarrollo Web</b>, en ella
           aprendí las bases de la programación. Luego realicé el Programa
@@ -38,7 +38,7 @@ function About() {
           conceptos clave del Desarrollo Web como
           <b className="font-bold"> HTML, CSS, JavaScript.</b>
         </p>
-        <p className="animate-fade-in animate-delay-500 text-base md:text-lg mt-1 ml-10 lg:ml-5 break-words mt text-left  lg:text-xl sm:w-6/12 dark:font-medium  text-black lg:text-left   font-Hind-Madurai drop-shadow dark:text-[#cdcdcd] ">
+        <p className="text-wrap animate-fade-in animate-delay-500 text-base md:text-lg mt-1 lg:ml-5 break-words mt text-left  lg:text-xl sm:w-6/12 dark:font-medium  text-black lg:text-left   font-Hind-Madurai drop-shadow dark:text-[#cdcdcd] ">
           En el año 2023 continué de manera autodidacta aprendiendo tecnologías
           Frontend como
           <span className="font-bold"> React, Next.js, Tailwind, </span>
