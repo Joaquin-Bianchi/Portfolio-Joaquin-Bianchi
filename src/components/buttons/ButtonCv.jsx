@@ -2,9 +2,9 @@ import React from "react";
 
 function ButtonCv() {
   return (
-    <>
+    <div className="mr-4">
       <a
-        href="https://flowcv.com/resume/pqls7i3bt6"
+        href="https://drive.google.com/file/d/1No64pgINqETyxYG4zKyAOzi16fCfMapJ/view?usp=sharing"
         target="_blank"
         className="relative inline-block text-lg group"
       >
@@ -18,7 +18,7 @@ function ButtonCv() {
           datarounded="rounded-lg"
         ></span>
       </a>
-    </>
+    </div>
   );
 }
 

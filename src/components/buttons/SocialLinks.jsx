@@ -7,7 +7,7 @@ function SocialLinks({ size }) {
       <div className="flex items-center  text-3xl  lg:text-4xl gap-2 dark:text-white">
         <a
           className="lg:hidden"
-          href="https://flowcv.com/resume/pqls7i3bt6"
+          href="https://drive.google.com/file/d/1No64pgINqETyxYG4zKyAOzi16fCfMapJ/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
