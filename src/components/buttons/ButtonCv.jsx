@@ -4,7 +4,7 @@ function ButtonCv() {
   return (
     <div className="mr-4">
       <a
-        href="https://drive.google.com/file/d/1No64pgINqETyxYG4zKyAOzi16fCfMapJ/view?usp=sharing"
+        href="https://drive.google.com/file/d/1gj_lzHcEOcNgn_QH2ZmMvwf-80fEGYaX/view?usp=sharing"
         target="_blank"
         className="relative inline-block text-lg group"
       >
