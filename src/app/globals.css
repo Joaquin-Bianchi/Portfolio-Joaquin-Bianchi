@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lusitana&family=Montserrat:wght@700&display=swap");
 
+.menu {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  opacity: 0; /* Inicialmente oculto */
+  transition: opacity 0.3s ease; /* Animación suave de opacidad */
+  /* Otros estilos */
+}
+
+.menu.open {
+  opacity: 1; /* Hacer visible cuando está abierto */
+}
+
 /* Cambia el color de fondo de la barra de desplazamiento */
 
 @keyframes square-in-hesitate {
