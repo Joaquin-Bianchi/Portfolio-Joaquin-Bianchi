@@ -1,7 +1,7 @@
 const experiencia = [
   {
     Title: "Frontend Developer | Expresia Dev Army",
-    Time: "Noviembre 2023 | Actualmente",
+    Time: "Noviembre 2023 | Actualidad",
     Description:
       "En Expresia, desempeño el rol de Frontend Developer en su Plataforma DXP (Digital Experience Platform), donde me encargo del desarrollo de Templates y componentes dinámicos. Mi labor consiste en crear o migar sitios webs interactivos dentro de la plataforma. Además, me responsabilizo del mantenimiento de proyectos ya activos en la plataforma, realizando refactorizaciones y mejoras para garantizar un rendimiento óptimo y una interfaz de usuario eficiente.",
     Technologies: "HTML,CSS, JavaScript,, Handlebars js, React, Boostrap,",
