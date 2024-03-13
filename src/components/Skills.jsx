@@ -88,7 +88,7 @@ function Skills() {
               </div>
 
               <div className=" flex flex-col items-center  dark:text-blue-600 cursor-pointer transition duration-300 ease-out">
-                <SiJirasoftware className="hover:text-orange-600  hover:text-blue-600" />
+                <SiJirasoftware className=" hover:text-blue-600 transition duration-300 ease-out" />
                 <span className="text-base font-bold"> JIRA </span>
               </div>
 
