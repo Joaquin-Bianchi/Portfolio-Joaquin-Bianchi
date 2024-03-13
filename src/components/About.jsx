@@ -48,7 +48,7 @@ function About() {
             En 2021 comencé a estudiar una Tecnicatura en Desarrollo Web, en
             ella aprendí las bases de la programación y del desarrollo web. En
             2023, luego de adquirir esos conceptos y bases, decidí continuar mi
-            aprendisaje de manera autodidacta
+            aprendizaje de manera autodidacta
           </p>
         </div>
         <div className="mt-2 lg:flex items-center animate-fade-in-up animate-delay-500 ">
