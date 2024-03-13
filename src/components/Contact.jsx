@@ -55,21 +55,21 @@ function Contact() {
       <div className="mt-24 mx-auto">
         <div className="flex flex-col text-center w-[151px] lg:w-[199px] justify-center m-auto mb-12">
           <h2 className="sm:w-2/5 flex items-center dark:text-white text-gray-900 font-Montserrat font-extrabold title-font text-4xl lg:text-5xl sm:mb-0">
-            Contact
+            Contacto
           </h2>
           <Loader />
           <p className=" dark:text-[#cdcdcd]  items-center font-Hind-Madurai drop-shadow flex flex-col font-Hind Madurai  mt-6 text-black">
             <span className="font-bold text-lg  dark:text-[#cdcdcd]">
-              Want to work with me?
+              ¿Quieres trabajar conmigo?
             </span>
-            <span className="dark:text-[#a7a9be]">Send message to </span>
+            <span className="dark:text-[#a7a9be]">Envía un mensaje a </span>
             <a
               className="font-bold text-black dark:text-white dark:hover:text-orange-500 hover:text-orange-600"
               href="mailto:joaqobianchi13@gmail.com"
             >
               joaqobianchi13@gmail.com
             </a>
-            or use the contact form.
+            o usa el formulario de contacto.
           </p>
         </div>
         <div className="lg:w-1/2 2xl:w-2/5 xl:w-1/2 md:w-1/2 mx-auto">
@@ -88,7 +88,7 @@ function Contact() {
                   name="user_name"
                   className="leading-7 text-base dark:text-white dark:font-bold text-gray-600"
                 >
-                  Name
+                  Nombre
                 </label>
                 <input
                   type="text"
@@ -130,7 +130,7 @@ function Contact() {
                   htmlFor="message"
                   className="leading-7 text-sm dark:text-white dark:font-bold text-gray-600"
                 >
-                  Message
+                  Mensaje
                 </label>
                 <textarea
                   id="message"
@@ -147,7 +147,7 @@ function Contact() {
                 type="submit"
                 className="flex rounded-lg mx-auto text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600  text-lg"
               >
-                Send
+                Enviar
               </button>
             </div>
             <div className="p-2 w-full pt-8 mt-8 border-t text-black border-gray-200 text-center">
