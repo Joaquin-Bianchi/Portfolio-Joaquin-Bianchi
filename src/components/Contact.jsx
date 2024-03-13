@@ -60,7 +60,7 @@ function Contact() {
           <Loader />
           <p className=" dark:text-[#cdcdcd]  items-center font-Hind-Madurai drop-shadow flex flex-col font-Hind Madurai  mt-6 text-black">
             <span className="font-bold text-lg  dark:text-[#cdcdcd]">
-              ¿Quieres trabajar conmigo?
+              ¿Quieres comunicarte conmigo?
             </span>
             <span className="dark:text-[#a7a9be]">Envía un mensaje a </span>
             <a
