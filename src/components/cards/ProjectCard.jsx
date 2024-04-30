@@ -30,8 +30,11 @@ function ProjectCard({
         {Description}
       </p>
       <div className="flex items-center justify-between">
-        <ButtonGitRepo linkRepo={LinkRepo}></ButtonGitRepo>
+        {LinkRepo && <ButtonGitRepo linkRepo={LinkRepo}></ButtonGitRepo>}
         <ButtonDemo linkDemo={LinkDemo}></ButtonDemo>
+        {/* <span class="rounded-full px-4 py-1 border bg-[#ffee00]  text-black font-semibold">
+          JavaScript
+        </span> */}
       </div>
     </div>
   );
