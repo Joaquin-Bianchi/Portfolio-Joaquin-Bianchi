@@ -6,7 +6,7 @@ const proyects = [
     Imagen: "assets/britebirch.jpg",
     Tags: "",
     LinkRepo: "",
-    LinkDemo: "",
+    LinkDemo: "https://clearcandidhyena.xpr.cloud/",
   },
   {
     ProjectName: "Porto Sass",
