@@ -14,7 +14,7 @@ function NavbarMobile() {
 
   return (
     <header className="bg-white sticky dark:bg-zinc-800 md:hidden top-0 z-50 ">
-      <div className="mx-auto flex h-16 border dark:border-zinc-900 border-black items-center gap-8 px-4 sm:px-6 lg:px-8 relative">
+      <div className="mx-auto flex h-16 border dark:border-zinc-900 border-zinc-200 items-center gap-8 px-4 sm:px-6 lg:px-8 relative">
         <a className="text-black" href="/">
           <span className="sr-only">Home</span>
           <h2 className="font-bold text-sm dark:text-white">

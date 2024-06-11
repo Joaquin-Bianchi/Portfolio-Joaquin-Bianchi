@@ -13,7 +13,7 @@ function About() {
       <div className="flex flex-col gap-1 items-center ">
         <p className="flex items-center animate-fade-in text-2xl lg:text-3xl -mb-5 dark:text-white font-Montserrat">
           <span className="text-orange-500 drop-shadow-md ">Hola</span>
-          <GiHand className="text-black dark:text-[#f3ddca] animate-tada animate-duration-[4000ms] text-[2.8rem] ml-1 mr-2" />{" "}
+          <GiHand className="text-black dark:text-[#f3ddca] animate-tada animate-duration-[5000ms] text-[3.9rem] ml-1 mr-2" />{" "}
           <span className="drop-shadow-md"> Soy</span>
         </p>
         <div>

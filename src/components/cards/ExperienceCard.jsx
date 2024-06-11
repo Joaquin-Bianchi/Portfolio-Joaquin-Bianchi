@@ -11,48 +11,51 @@ function ExperienceCard({
   Index,
 }) {
   return (
-    <div className="flex relative pt-10 pb-20 sm:items-center  flex-col md:flex-row mx-auto">
-      <div className="h-full w-6 absolute inset-0 flex sm:items-center justify-center">
-        <div className="h-full sm:h-full  w-1.5 bg-orange-500 pointer-events-none"></div>
-      </div>
-      <div>
-        <div
-          className={` ${
-            Index === 0 ? "font-bold" : "font-medium"
-          } h-12 dr sm:h-full w-full sm:flex-shrink-0 md:w-64 mb-10  items-center rounded-lg py-3 px-3 justify-center bg-white text-black border border-black 
-           drop-shadow-md  
-        relative z-10 "`}
-        >
-          {Time}
+    <div class=" relative mx-12  pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20  dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
+      <div class="pb-12 md:col-span-5">
+        <div class="sticky top-0">
+          <span
+            class={` ${
+              Index === 0 ? "text-orange-500" : "text-black dark:text-white "
+            } -left-[42px] absolute rounded-full text-5xl`}
+          >
+            &bull;
+          </span>
         </div>
-      </div>
-
-      <div className="flex-grow  md:pl-8 pl-8 flex sm:items-center items-start flex-col sm:flex-row">
-        <div className="flex-shrink-0 ml-3 md:ml-0 w-24 h-24 bg-black rounded-full inline-flex items-center justify-center">
-          <img src={Image} className="drop-shadow w-full h-full" alt="" />
-        </div>
-
-        <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-          <div className="flex items-baseline gap-1">
-            <AiFillFire
-              className={`${
-                Index === 0 ? "text-orange-500" : "text-black dark:text-white "
-              } `}
-            />
-            <h2 className="font-Montserrat font-bold title-font text-base text-gray-900 dark:text-[#cdcdcd] mb-1 lg:text-xl">
-              {Title}
-            </h2>
+        <div className="flex-grow   md:pl-8  flex sm:items-center items-start flex-col sm:flex-row">
+          <div className="flex-shrink-0 ml-3 md:ml-0 w-24 h-24 bg-black rounded-full inline-flex items-center justify-center">
+            <img src={Image} className="drop-shadow w-full h-full" alt="" />
           </div>
-          <p className=" text-black font-Hind-Madurai  lg:text-lg dark:text-[#cdcdcd]  ">
-            {Description}
-          </p>
-          <p className="flex gap-3 mt-2 lg:gap2 items-center lg:mt-0.5 text-black dark:text-[#cdcdcd] font-medium">
-            <span className="font-bold  flex items-center">
-              <TbPointFilled />
-              Tecnologias:
-            </span>
-            {Technologies}
-          </p>
+
+          <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+            <div className="flex items-baseline gap-1">
+              <AiFillFire
+                className={`${
+                  Index === 0
+                    ? "text-orange-500"
+                    : "text-black dark:text-white "
+                } `}
+              />
+              <h2 className="font-Montserrat mb-2 font-bold title-font text-base text-gray-900 dark:text-[#cdcdcd] lg:text-[1.3rem]">
+                {Title}
+              </h2>
+            </div>
+            <div className="flex flex-col">
+              <time class="ml-1 mb-2 text-base text-gray-700 dark:text-white/80">
+                {Time}
+              </time>
+              <p className=" text-black font-Hind-Madurai   lg:text-lg dark:text-[#cdcdcd]  ">
+                {Description}
+              </p>
+              <p className="flex flex-col md:flex-row gap-3 mt-2 lg:gap-2 md:items-center lg:mt-0.5 text-black dark:text-[#cdcdcd] font-medium">
+                <span className="font-bold  lg:text-lg flex items-center">
+                  <TbPointFilled />
+                  Tecnologias:
+                </span>
+                {Technologies}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
