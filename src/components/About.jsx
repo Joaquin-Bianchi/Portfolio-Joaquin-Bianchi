@@ -30,7 +30,7 @@ function About() {
         </h2>
         {/* text-wrap */}
         <div className="flex flex-col  sm:w-auto md:w-2/3 xl:w-6/12  items-center mx-2 ml-5 sm:mx-0">
-          <p className="items-center  text-wrap animate-fade-in animate-delay-500 text-base md:text-lgmt-2 lg:ml-5 text-left   lg:text-xl  dark:font-medium  text-black lg:text-left  font-Hind-Madurai drop-shadow dark:text-[#cdcdcd] ">
+          <p className="items-center  text-wrap animate-fade-in animate-delay-500 text-base md:text-lg mt-1 lg:ml-5 text-left   lg:text-xl  dark:font-medium  text-black lg:text-left  font-Hind-Madurai drop-shadow dark:text-[#cdcdcd] ">
             Tengo experiencia en el desarrollo y diseño de aplicaciones web,
             Actualmente, me encuentro trabajando como Freelance en{" "}
             <a

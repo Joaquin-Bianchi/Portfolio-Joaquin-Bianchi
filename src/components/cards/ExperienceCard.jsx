@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillFire } from "react-icons/ai";
-import { TbPointFilled } from "react-icons/tb";
+import { TbArrowBadgeRightFilled } from "react-icons/tb";
+import { CiCalendarDate } from "react-icons/ci";
 
 function ExperienceCard({
   Title,
@@ -12,7 +13,7 @@ function ExperienceCard({
 }) {
   return (
     <div class=" relative mx-12  pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20  dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-      <div class="pb-12 md:col-span-5">
+      <div class="pb-12 md:col-span-5 ">
         <div class="sticky top-0">
           <span
             class={` ${
@@ -36,23 +37,26 @@ function ExperienceCard({
                     : "text-black dark:text-white "
                 } `}
               />
-              <h2 className="font-Montserrat mb-2 font-bold title-font text-base text-gray-900 dark:text-[#cdcdcd] lg:text-[1.3rem]">
+              <h2 className="font-Montserrat mb-2 font-bold title-font text-base text-gray-900 dark:text-[#ffffff] lg:text-[1.3rem]">
                 {Title}
               </h2>
             </div>
             <div className="flex flex-col">
-              <time class="ml-1 mb-2 text-base text-gray-700 dark:text-white/80">
+              <time class=" mb-2 text-base flex items-center gap-2 text-gray-700 dark:text-white/80">
+                <CiCalendarDate className="text-lg" />
                 {Time}
               </time>
-              <p className=" text-black font-Hind-Madurai   lg:text-lg dark:text-[#cdcdcd]  ">
+              <p className=" text-black font-semibold mb-1   lg:text-lg dark:text-[#cdcdcd]  ">
                 {Description}
               </p>
               <p className="flex flex-col md:flex-row gap-3 mt-2 lg:gap-2 md:items-center lg:mt-0.5 text-black dark:text-[#cdcdcd] font-medium">
                 <span className="font-bold  lg:text-lg flex items-center">
-                  <TbPointFilled />
+                  <TbArrowBadgeRightFilled className="text-orange-500" />
                   Tecnologias:
                 </span>
-                {Technologies}
+                <span className="text-gray-700 dark:text-slate-100">
+                  {Technologies}
+                </span>
               </p>
             </div>
           </div>
