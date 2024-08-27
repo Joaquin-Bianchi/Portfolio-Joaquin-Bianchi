@@ -12,7 +12,7 @@ function ExperienceCard({
   Index,
 }) {
   return (
-    <div class=" relative mx-12  pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20  dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
+    <div class="bg-bg dark:bg-zinc-950 relative mx-12  pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20  dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
       <div class="pb-12 md:col-span-5 ">
         <div class="sticky top-0">
           <span
@@ -23,12 +23,12 @@ function ExperienceCard({
             &bull;
           </span>
         </div>
-        <div className="flex-grow   md:pl-8  flex sm:items-center items-start flex-col sm:flex-row">
-          <div className="flex-shrink-0 ml-3 md:ml-0 w-24 h-24 bg-black rounded-full inline-flex items-center justify-center">
-            <img src={Image} className="drop-shadow w-full h-full" alt="" />
+        <div className="flex flex-col items-start flex-grow md:pl-8 sm:items-center sm:flex-row">
+          <div className="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 ml-3 bg-black rounded-full md:ml-0">
+            <img src={Image} className="w-full h-full drop-shadow" alt="" />
           </div>
 
-          <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <div className="flex-grow mt-6 sm:pl-6 sm:mt-0">
             <div className="flex items-baseline gap-1">
               <AiFillFire
                 className={`${
@@ -50,7 +50,7 @@ function ExperienceCard({
                 {Description}
               </p>
               <p className="flex flex-col md:flex-row gap-3 mt-2 lg:gap-2 md:items-center lg:mt-0.5 text-black dark:text-[#cdcdcd] font-medium">
-                <span className="font-bold  lg:text-lg flex items-center">
+                <span className="flex items-center font-bold lg:text-lg">
                   <TbArrowBadgeRightFilled className="text-orange-500" />
                   Tecnologias:
                 </span>

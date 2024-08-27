@@ -9,8 +9,8 @@ const experiencia = [
     Image: "assets/expresia.png",
   },
   {
-    Title: "Frontend Developer | No Country",
-    Time: "(Agosto 2023 | Diciembre 2023)",
+    Title: "Desarrolador Web | NovaSync",
+    Time: "(Junio 2022 | Septiembre 2023)",
     Description:
       "Durante mi práctica laboral en No Country, me centré en el desarrollo de WebApps, Creando componentes dinamicos, realizando integraciones de API REST y la implementación de diseños responsivos. Participé activamente en metodologías ágiles como SCRUM, asistiendo a Daily Meets y practicando Pair Programming. Además, utilicé herramientas como Jira y Trello para la gestion de tareas.",
     Technologies: "JavaScript | React.js | Next.js | Tailwind | Git | Github",

@@ -5,9 +5,9 @@ import NewExperienceCard from "./cards/NewExperienceCard";
 
 function Experience() {
   return (
-    <section className="animate-fade-in animate-delay-500 text-gray-600 body-font mt-10">
+    <section className="mt-10 text-gray-600 animate-fade-in animate-delay-500 body-font">
       <div className="container mx-auto ">
-        <h2 className="pb-10 dark:text-white text-gray-900 font-Montserrat font-extrabold title-font  text-4xl lg:text-5xl  sm:mb-0">
+        <h2 className="pb-10 text-4xl font-extrabold text-gray-900 dark:text-white font-Montserrat title-font lg:text-5xl sm:mb-0">
           Experiencia
         </h2>
         <div className="flex max-w-full ">

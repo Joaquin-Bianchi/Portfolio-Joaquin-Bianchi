@@ -50,11 +50,11 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="text-gray-600 body-font relative animate-fade-in animate-delay-500"
+      className="relative text-gray-600 body-font animate-fade-in animate-delay-500"
     >
-      <div className="mt-24 mx-auto">
-        <div className="flex flex-col text-center w-[151px] lg:w-[229px] justify-center m-auto mb-12">
-          <h2 className="sm:w-2/5 flex items-center dark:text-white text-gray-900 font-Montserrat font-extrabold title-font text-4xl lg:text-5xl sm:mb-0">
+      <div className="mx-auto mt-24 ">
+        <div className="flex bg-bg dark:bg-zinc-950 flex-col text-center w-[151px] lg:w-[229px] justify-center m-auto mb-12">
+          <h2 className="flex items-center text-4xl font-extrabold text-gray-900 sm:w-2/5 dark:text-white font-Montserrat title-font lg:text-5xl sm:mb-0">
             Contacto
           </h2>
           <Loader />
@@ -72,13 +72,13 @@ function Contact() {
             o usa el formulario de contacto.
           </p>
         </div>
-        <div className="lg:w-1/2 2xl:w-2/5 xl:w-1/2 md:w-1/2 mx-auto">
+        <div className="mx-auto lg:w-1/2 2xl:w-2/5 xl:w-1/2 md:w-1/2">
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex flex-wrap -m-2 font-extrabold "
+            className="flex flex-wrap -m-2 font-extrabold bg-bg dark:bg-zinc-950 "
           >
-            <div className="p-2 w-1/2">
+            <div className="w-1/2 p-2">
               <div className="relative">
                 <label
                   htmlFor="user_name"
@@ -86,7 +86,7 @@ function Contact() {
                   id="name"
                   required
                   name="user_name"
-                  className="leading-7 text-base dark:text-white dark:font-bold text-gray-600"
+                  className="text-base leading-7 text-gray-600 dark:text-white dark:font-bold"
                 >
                   Nombre
                 </label>
@@ -97,11 +97,11 @@ function Contact() {
                   name="user_name"
                   value={formData.user_name}
                   onChange={handleInputChange}
-                  className="w-full dark:text-black bg-gray-50 bg-opacity-50 rounded border border-black  focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full px-3 py-2 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-opacity-50 border border-black rounded outline-none dark:text-black bg-gray-50 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200"
                 />
               </div>
             </div>
-            <div className="p-2 w-1/2">
+            <div className="w-1/2 p-2">
               <div className="relative">
                 <label
                   htmlFor="user_email"
@@ -109,7 +109,7 @@ function Contact() {
                   required
                   id="email"
                   name="user_email"
-                  className="leading-7 text-sm dark:text-white dark:font-bold text-gray-600"
+                  className="text-sm leading-7 text-gray-600 dark:text-white dark:font-bold"
                 >
                   Email
                 </label>
@@ -120,15 +120,15 @@ function Contact() {
                   name="user_email"
                   value={formData.user_email}
                   onChange={handleInputChange}
-                  className="w-full dark:text-black border border-black  bg-gray-100 bg-opacity-50 rounded  focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 text-base outline-none text-black py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full px-3 py-2 text-base leading-8 text-black transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-black rounded outline-none dark:text-black focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200"
                 />
               </div>
             </div>
-            <div className="p-2 w-full">
+            <div className="w-full p-2">
               <div className="relative">
                 <label
                   htmlFor="message"
-                  className="leading-7 text-sm dark:text-white dark:font-bold text-gray-600"
+                  className="text-sm leading-7 text-gray-600 dark:text-white dark:font-bold"
                 >
                   Mensaje
                 </label>
@@ -138,20 +138,20 @@ function Contact() {
                   name="user_message"
                   value={formData.user_message}
                   onChange={handleInputChange}
-                  className="w-full dark:text-black bg-gray-100 bg-opacity-50 rounded  border border-black  focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 h-52 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  className="w-full px-3 py-1 text-base leading-6 text-gray-700 transition-colors duration-200 ease-in-out bg-gray-100 bg-opacity-50 border border-black rounded outline-none resize-none dark:text-black focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 h-52"
                 ></textarea>
               </div>
             </div>
-            <div className="p-2 w-full">
+            <div className="w-full p-2">
               <button
                 type="submit"
-                className="flex rounded-lg mx-auto text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600  text-lg"
+                className="flex px-8 py-2 mx-auto text-lg text-white bg-orange-500 border-0 rounded-lg focus:outline-none hover:bg-orange-600"
               >
                 Enviar
               </button>
             </div>
-            <div className="p-2 w-full pt-8 mt-8 border-t text-black border-gray-200 text-center">
-              <p className="mb-1 font-extrabold text-base dark:text-white">
+            <div className="w-full p-2 pt-8 mt-8 text-center text-black border-t border-gray-200">
+              <p className="mb-1 text-base font-extrabold dark:text-white">
                 {" "}
                 Joaquin Bianchi
               </p>

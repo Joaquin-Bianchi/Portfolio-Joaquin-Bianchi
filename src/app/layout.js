@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
         <title>Joaquin Bianchi | Portfolio</title>
         <link rel="icon" href="/favicon.png" />
       </head>
-      <body className=" bg-bg  dark:bg-[#0f0e17 dark:bg-zinc-950 ">
+      <body className=" bg-bg dark:bg-zinc-950">
         <Toaster position="bottom-center" reverseOrder={false} />
         <NavbarDesktop></NavbarDesktop>
         <NavbarMobile></NavbarMobile>
