@@ -1,4 +1,8 @@
 import animations from "@midudev/tailwind-animations";
+const {
+  default: flattenColorPalette,
+} = require("tailwindcss/lib/util/flattenColorPalette");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -38,7 +42,7 @@ module.exports = {
     },
   },
   darkMode: "class",
-  plugins: [animations],
+  plugins: [addVariablesForColors],
 };
 // font-family: 'Hind Madurai', sans-serif;
 // font-family: 'Lusitana', serif;
@@ -48,3 +52,13 @@ module.exports = {
 // 'primary': '#dd031d',
 // 'secondary': '#9effec',
 // 'accent': '#c9031a',
+function addVariablesForColors({ addBase, theme }) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+
+  addBase({
+    ":root": newVars,
+  });
+}

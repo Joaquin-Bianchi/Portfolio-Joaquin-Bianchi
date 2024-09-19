@@ -9,7 +9,7 @@ import { MdWavingHand } from "react-icons/md";
 
 function About() {
   return (
-    <section className="container flex m-auto mt-32 bg-bg dark:bg-zinc-950">
+    <section className="container flex m-auto mt-32 dark:bg-zinc-950">
       <div className="flex flex-col items-center gap-1 ">
         <p className="flex items-center -mb-5 text-2xl animate-fade-in lg:text-3xl dark:text-white font-Montserrat">
           <span className="text-orange-500 drop-shadow-md ">Hola</span>

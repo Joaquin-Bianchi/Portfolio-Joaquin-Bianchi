@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <main className="lg:mx-[20px] mx-[10px] scroll-smooth z-40">
-        <Particles />
+        {/* <Particles /> */}
 
         <SubTitle></SubTitle>
         <About></About>
