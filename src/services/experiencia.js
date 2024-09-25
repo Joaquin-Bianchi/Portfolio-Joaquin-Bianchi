@@ -1,19 +1,34 @@
 const experiencia = [
   {
     Title: "Frontend Developer | Expresia Dev Army",
-    Time: "(Agosto 2023 | Junio 2024 )",
+    Time: "( Agosto 2023 - Junio 2024 )",
     Description:
-      "En Expresia, desempeño el rol de Frontend Developer en su Plataforma DXP (Digital Experience Platform), donde me encargo del desarrollo de Templates y componentes dinámicos. Mi labor consiste en crear o migar sitios webs interactivos dentro de la plataforma. Además, me responsabilizo del mantenimiento de proyectos ya activos en la plataforma.",
-    Technologies:
-      "HTML | CSS | JavaScript | Node Js | Handlebars js | React, Boostrap |",
+      "Trabajé en el desarrollo de sitios y plataformas web utilizando el CMS Expresia. Mis tareas incluyeron el consumo e integración de APIs, el diseño de componentes y plantillas dinámicas, y el desarrollo de módulos personalizados para ser reutilizados en la plataforma. Además, me ocupé de la optimización del rendimiento de los sitios y realicé migraciones de otros sitios dentro de Expresia.",
+    Technologies: [
+      { name: "HTML" },
+      { name: "CSS" },
+      { name: "JavaScript" },
+      { name: "Nodejs" },
+      { name: "Handlebars" },
+      { name: "React" },
+      { name: "Jquery" },
+      { name: "Bootstrap" },
+    ],
     Image: "assets/expresia.png",
   },
   // {
-  //   Title: "Desarrolador Web | NovaSync",
+  //   Title: "Desarrollador Web | NovaSync",
   //   Time: "(Junio 2022 | Septiembre 2023)",
   //   Description:
-  //     "Durante mi práctica laboral en No Country, me centré en el desarrollo de WebApps, Creando componentes dinamicos, realizando integraciones de API REST y la implementación de diseños responsivos. Participé activamente en metodologías ágiles como SCRUM, asistiendo a Daily Meets y practicando Pair Programming. Además, utilicé herramientas como Jira y Trello para la gestion de tareas.",
-  //   Technologies: "JavaScript | React.js | Next.js | Tailwind | Git | Github",
+  //     "Durante mi práctica laboral en No Country, me centré en el desarrollo de WebApps, creando componentes dinámicos, realizando integraciones de API REST y la implementación de diseños responsivos. Participé activamente en metodologías ágiles como SCRUM, asistiendo a Daily Meets y practicando Pair Programming. Además, utilicé herramientas como Jira y Trello para la gestión de tareas.",
+  //   Technologies: [
+  //     { name: "JavaScript" },
+  //     { name: "React.js" },
+  //     { name: "Next.js" },
+  //     { name: "Tailwind" },
+  //     { name: "Git" },
+  //     { name: "GitHub" }
+  //   ],
   //   Image: "assets/nocountry.jpg",
   // },
 ];

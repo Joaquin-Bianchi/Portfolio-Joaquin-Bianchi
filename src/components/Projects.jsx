@@ -7,15 +7,15 @@ import proyects from "@/services/proyects";
 
 function Projects({}) {
   return (
-    <div className="mt-20 dr">
+    <div className="mt-10 dr" id="projects">
       <section className="animate-fade-in animate-delay-500 body-font">
-        <div className="container  py-24 mx-auto ">
+        <div className="container py-24 mx-auto ">
           <div className="flex flex-col">
-            <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-6">
-              <div className="flex flex-col gap-1 m-auto    md:m-0">
+            <div className="flex flex-col flex-wrap py-6 mb-6 sm:flex-row">
+              <div className="flex flex-col gap-1 m-auto md:m-0">
                 <h2
                   id="projects"
-                  className="sm:w-2/5 flex items-center dark:text-white text-gray-900 font-Montserrat font-extrabold title-font  text-4xl lg:text-5xl mb-2 sm:mb-0"
+                  className="flex items-center mb-2 text-4xl font-extrabold text-gray-900 sm:w-2/5 dark:text-white font-Montserrat title-font lg:text-5xl sm:mb-0"
                 >
                   Proyectos
                 </h2>
@@ -23,17 +23,9 @@ function Projects({}) {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap gap-6 justify-center">
-            {proyects.map((exp, index) => (
-              <ProjectCard
-                key={index}
-                ProjectName={exp.ProjectName}
-                Description={exp.Description}
-                Imagen={exp.Imagen}
-                LinkRepo={exp.LinkRepo}
-                LinkDemo={exp.LinkDemo}
-                alt={exp.ProjectName}
-              />
+          <div className="flex flex-wrap justify-center gap-12">
+            {proyects.map((project, index) => (
+              <ProjectCard key={index} {...project} />
             ))}
           </div>
         </div>

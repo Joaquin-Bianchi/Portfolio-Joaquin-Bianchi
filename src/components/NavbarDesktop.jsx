@@ -20,12 +20,12 @@ function NavDesktop() {
         >
           Proyectos
         </a>
-        <a
+        {/* <a
           href="#skills"
           className="text-sm  transition duration-300 ease-out hover:text-orange-500"
         >
           Skills
-        </a>
+        </a> */}
         <a
           href="#contact"
           className="text-sm  transition duration-300 ease-out hover:text-orange-500"

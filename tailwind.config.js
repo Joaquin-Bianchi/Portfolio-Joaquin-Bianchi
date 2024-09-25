@@ -16,6 +16,7 @@ module.exports = {
     extend: {
       animation: {
         text: "text 7.2s ease infinite",
+        wave: "wave 0.5s ease-in-out infinite",
       },
       keyframes: {
         text: {
@@ -28,9 +29,13 @@ module.exports = {
             "background-position": "right center",
           },
         },
+        wave: {
+          "0%, 100%": { transform: "rotate(0deg)" },
+          "50%": { transform: "rotate(5deg)" },
+        },
       },
       colors: {
-        bg: "#E4E4E4",
+        bg: "#f5f5f4",
         "semi-slate": "#EEF1EF",
         violeta: "#011627",
         "black-opaque": "#0f172a",

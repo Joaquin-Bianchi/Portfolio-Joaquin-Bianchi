@@ -2,6 +2,43 @@ import React from "react";
 import { AiFillFire } from "react-icons/ai";
 import { TbArrowBadgeRightFilled } from "react-icons/tb";
 import { CiCalendarDate } from "react-icons/ci";
+import {
+  Bootstrap,
+  CSS,
+  HTML5,
+  JavaScript,
+  Nextjs,
+  Nodejs,
+  PostgreSQL,
+  Prisma,
+  Railway,
+  ReactIcon,
+  TailwindCSS,
+  TypeScript,
+  v0,
+  Vercel,
+  Zustand,
+} from "../icons/Icons";
+import { SiHandlebarsdotjs, SiJquery } from "react-icons/si";
+
+const techIcons = {
+  prisma: Prisma,
+  react: ReactIcon,
+  javascript: JavaScript,
+  typescript: TypeScript,
+  "next js": Nextjs,
+  nodejs: Nodejs,
+  postgress: PostgreSQL,
+  tailwind: TailwindCSS,
+  shadcn: Vercel,
+  railway: Railway,
+  ui: v0,
+  html: HTML5,
+  css: CSS,
+  bootstrap: Bootstrap,
+  handlebars: SiHandlebarsdotjs,
+  jquery: SiJquery,
+};
 
 function ExperienceCard({
   Title,
@@ -49,15 +86,33 @@ function ExperienceCard({
               <p className=" text-black font-semibold mb-1   lg:text-lg dark:text-[#cdcdcd]  ">
                 {Description}
               </p>
-              <p className="flex flex-col md:flex-row gap-3 mt-2 lg:gap-2 md:items-center lg:mt-0.5 text-black dark:text-[#cdcdcd] font-medium">
+              <div className="flex flex-col md:flex-row gap-3 mt-2 lg:gap-2 md:items-center lg:mt-0.5 text-black dark:text-[#cdcdcd] font-medium">
                 <span className="flex items-center font-bold lg:text-lg">
                   <TbArrowBadgeRightFilled className="text-orange-500" />
                   Tecnologias:
                 </span>
-                <span className="text-gray-700 dark:text-slate-100">
-                  {Technologies}
-                </span>
-              </p>
+                <div className="gap-2 flex flex-wrap mt-1">
+                  {Technologies && Technologies.length > 0 ? (
+                    Technologies.map((tech, index) => {
+                      const techName = tech.name.toLowerCase();
+                      const TechIcon = techIcons[techName];
+                      return (
+                        <span
+                          key={index}
+                          className=" inline-flex items-center px-3 py-2 font-Montserrat rounded-full text-xs font-medium bg-gray-900 text-white dark:bg-gray-700 dark:text-gray-200 shadow-md"
+                        >
+                          {TechIcon && <TechIcon className="mr-1.5 h-4 w-4" />}
+                          {tech.name}
+                        </span>
+                      );
+                    })
+                  ) : (
+                    <span className="text-gray-500 dark:text-gray-400">
+                      No technologies specified
+                    </span>
+                  )}
+                </div>
+              </div>
             </div>
           </div>
         </div>
