@@ -5,7 +5,7 @@ const proyects = [
       "Diseño y desarrollo en equipo desde cero una aplicación para gestionar pedidos, entregas yla preparación en un local con más de 90 órdenes semanales. participando en reuniones con el cliente para definir los requerimientos, funcionalidades y el alcance del proyecto.",
     Private: true,
     Imagen: "assets/panel.png",
-    Video: "assets/viandas-demo.mov",
+    Video: "",
     Technologies: [
       { name: "Next js" },
       { name: "React" },
