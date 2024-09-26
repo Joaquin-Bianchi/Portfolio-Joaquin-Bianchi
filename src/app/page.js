@@ -1,4 +1,4 @@
-import Contact from "@/components/Contact";
+import Conect from "@/components/Conect";
 import Projects from "@/components/Projects";
 import About from "@/components/About";
 import SubTitle from "@/components/SubTitle";
@@ -16,7 +16,8 @@ export default function Home() {
         <Experience></Experience>
         <Projects></Projects>
         {/* <Skills></Skills> */}
-        <Contact></Contact>
+        {/* <Contact></Contact> */}
+        <Conect></Conect>
       </main>
     </>
   );

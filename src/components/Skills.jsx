@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Loader from "./cards/Loader";
+import Loader from "./icons/Loader";
 
 import {
   SiBootstrap,

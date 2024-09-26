@@ -2,7 +2,7 @@ import React from "react";
 
 import { ButtonDemo, ButtonGitRepo } from "./buttons/SocialLinks";
 import ProjectCard from "./cards/ProjectCard";
-import Loader from "./cards/Loader";
+import Loader from "./icons/Loader";
 import proyects from "@/services/proyects";
 
 function Projects({}) {

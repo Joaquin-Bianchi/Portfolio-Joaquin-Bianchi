@@ -1,7 +1,7 @@
 import React from "react";
 import ExperienceCard from "./cards/ExperienceCard";
 import experiencia from "@/services/experiencia";
-import Loader from "./cards/Loader";
+import Loader from "./icons/Loader";
 
 export default function Experience() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useState } from "react";
 import SocialLinks from "./buttons/SocialLinks";
-import Loader from "./cards/Loader";
+import Loader from "./icons/Loader";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-hot-toast";
 function Contact() {
