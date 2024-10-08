@@ -77,7 +77,7 @@ function ProjectCard({
         )}
       </div>
 
-      <div className="p-6">
+      <div className="p-4 md:p-6">
         <div className="flex items-center  justify-between mb-4">
           <h2 className="text-xl flex items-center font-medium text-gray-900  dark:text-[#fffffe]">
             <TbPointFilled className="text-orange-400 " />
@@ -99,9 +99,11 @@ function ProjectCard({
               return (
                 <span
                   key={index}
-                  className="inline-flex items-center px-3 py-2 font-Montserrat rounded-full text-xs font-medium bg-gray-900 text-white dark:bg-gray-700 dark:text-gray-200 shadow-md"
+                  className="inline-flex items-center px-3 py-2 font-Montserrat rounded-full text-[0.60rem]  md:text-xs font-medium bg-gray-900 text-white dark:bg-gray-700 dark:text-gray-200 shadow-md"
                 >
-                  {TechIcon && <TechIcon className="mr-1.5 h-5 w-5" />}
+                  {TechIcon && (
+                    <TechIcon className="mr-1.5 h-3 w-3  md:h-5 md:w-5" />
+                  )}
                   {tech.name}
                 </span>
               );

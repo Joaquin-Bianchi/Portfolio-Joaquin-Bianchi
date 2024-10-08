@@ -39,8 +39,10 @@ function About() {
               de aplicaciones web, Disfruto trabajando en equipo y también creo
               que tengo buen gusto por el diseño, me gusta participar y aportar
               valor en el diseño de los sitios, colaborando con los diseñadores.
-              Estoy buscando oportunidades para formar parte de un equipo de IT
-              en una empresa donde pueda desarrollarme profesionalmente y
+            </p>
+            <p className="items-center bg-bg dark:bg-zinc-950  text-wrap animate-fade-in animate-delay-500 text-base md:text-lg  lg:ml-5 text-left   lg:text-xl  dark:font-medium  text-black lg:text-left  font-Hind-Madurai  dark:text-[#cdcdcd] ">
+              Actualmente estoy en busqueda de oportunidades para formar parte
+              de un equipo de IT, donde pueda desarrollarme profesionalmente y
               contribuir con mis habilidades.
             </p>
           </div>

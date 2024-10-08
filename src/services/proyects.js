@@ -5,7 +5,7 @@ const proyects = [
       "Diseño y desarrollo en equipo desde cero una aplicación para gestionar pedidos, entregas yla preparación en un local con más de 90 órdenes semanales. participando en reuniones con el cliente para definir los requerimientos, funcionalidades y el alcance del proyecto.",
     Private: true,
     Imagen: "assets/panel.png",
-    Video: "",
+    Video: "assets/viandas-demo.mp4",
     Technologies: [
       { name: "Next js" },
       { name: "React" },
@@ -15,7 +15,7 @@ const proyects = [
       { name: "Postgress" },
       { name: "Tailwind" },
       { name: "Shadcn" },
-      { name: "UI" },
+     
       { name: "Railway" },
     ],
     LinkRepo: "",

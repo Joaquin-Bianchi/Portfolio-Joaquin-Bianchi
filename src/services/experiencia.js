@@ -11,7 +11,6 @@ const experiencia = [
       { name: "Nodejs" },
       { name: "Handlebars" },
       { name: "React" },
-      { name: "Jquery" },
       { name: "Bootstrap" },
     ],
     Image: "assets/expresia.png",

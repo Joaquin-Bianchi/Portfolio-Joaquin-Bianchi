@@ -21,10 +21,10 @@ export default function ContactSection() {
             <div className="uppercase tracking-wide text-sm text-orange-500 font-bold">
               ¡Conectemos!
             </div>
-            <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight  dark:text-[#fffffe]  text-gray-900 sm:text-4xl">
+            <h3 className="mt-2  text-2xl md:text-3xl leading-8 font-extrabold tracking-tight  dark:text-[#fffffe]  text-gray-900 sm:text-4xl">
               Estoy disponible para colaborar
             </h3>
-            <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-3xl">
+            <p className="mt-4  text-lg  md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl">
               Si tenes una propuesta de trabajo, proyecto o solamente tenes
               alguna duda, No dudes en contactarme a través de cualquiera de
               estos medios:
@@ -34,7 +34,7 @@ export default function ContactSection() {
                 href="https://www.linkedin.com/in/joaquin-bianchi-dev"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#007bb6] hover:bg-[#276886] md:py-4 md:text-lg md:px-10 transition duration-150 ease-in-out"
+                className="flex items-center justify-center px-5  py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#007bb6] hover:bg-[#276886] md:py-4 md:text-lg md:px-10 transition duration-150 ease-in-out"
               >
                 <svg
                   className="w-5 h-5 mr-3"
@@ -52,7 +52,7 @@ export default function ContactSection() {
               </a>
               <a
                 href="mailto:joaqobianchi13@gmail.com"
-                className="flex items-center justify-center gap-3 px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 md:py-4 md:text-lg md:px-10 transition duration-150 ease-in-out"
+                className="flex items-center justify-center gap-3 px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 md:py-4 md:text-lg md:px-10 transition duration-150 ease-in-out"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
