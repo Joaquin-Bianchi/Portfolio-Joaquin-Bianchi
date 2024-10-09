@@ -34,16 +34,11 @@ function About() {
           </h2>
           {/* text-wrap */}
           <div className="flex flex-col items-center mx-2 ml-5 bg-bg dark:bg-zinc-950 sm:w-auto md:w-2/3 xl:w-6/12 sm:mx-0 relative">
-            <p className="items-center bg-bg dark:bg-zinc-950  text-wrap animate-fade-in animate-delay-500 text-base md:text-lg mt-1 lg:ml-5 text-left   lg:text-xl  dark:font-medium  text-black lg:text-left  font-Hind-Madurai  dark:text-[#cdcdcd] ">
+            <p className=" bg-bg dark:bg-zinc-950  text-wrap animate-fade-in animate-delay-500 text-base md:text-lg mt-1 lg:ml-5 text-left   lg:text-xl  dark:font-medium  text-black lg:text-left  font-Hind-Madurai  dark:text-[#cdcdcd] ">
               Cuento con mas de 1 año de experiencia en el desarrollo y diseño
               de aplicaciones web, Disfruto trabajando en equipo y también creo
-              que tengo buen gusto por el diseño, me gusta participar y aportar
-              valor en el diseño de los sitios, colaborando con los diseñadores.
-            </p>
-            <p className="items-center bg-bg dark:bg-zinc-950  text-wrap animate-fade-in animate-delay-500 text-base md:text-lg  lg:ml-5 text-left   lg:text-xl  dark:font-medium  text-black lg:text-left  font-Hind-Madurai  dark:text-[#cdcdcd] ">
-              Actualmente estoy en busqueda de oportunidades para formar parte
-              de un equipo de IT, donde pueda desarrollarme profesionalmente y
-              contribuir con mis habilidades.
+              que tengo buen gusto por el diseño. Actualmente estoy buscando un
+              equipo de IT donde pueda seguir creciendo profesionalmente.
             </p>
           </div>
           <div className="items-center mt-2 bg-bg dark:bg-zinc-950 lg:flex animate-fade-in-up animate-delay-500 ">

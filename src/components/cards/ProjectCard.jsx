@@ -80,12 +80,12 @@ function ProjectCard({
       <div className="p-4 md:p-6">
         <div className="flex items-center  justify-between mb-4">
           <h2 className="text-xl flex items-center font-medium text-gray-900  dark:text-[#fffffe]">
-            <TbPointFilled className="text-orange-400 " />
+        
             {Name}
           </h2>
           {Private && (
-            <div className="px-2 py-1  flex  items-center  text-xs font-semibold text-white bg-red-500 rounded-full">
-              <span className="-ml-1">🔒</span> Privado
+            <div className="px-2 py-1  flex  items-center  text-xs font-semibold text-white bg-gray-500 rounded-full">
+              Privado
             </div>
           )}
         </div>
