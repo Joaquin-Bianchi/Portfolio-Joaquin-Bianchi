@@ -49,7 +49,7 @@ function ExperienceCard({
   Index,
 }) {
   return (
-    <div class="bg-bg dark:bg-zinc-950 relative mx-12  pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20  dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
+    <div class="bg-bg dark:bg-zinc-950 relative mx-12   pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20  dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
       <div class="pb-12 md:col-span-5 ">
         <div class="sticky top-0">
           <span
@@ -60,7 +60,7 @@ function ExperienceCard({
             &bull;
           </span>
         </div>
-        <div className="flex flex-col items-start flex-grow md:pl-8 sm:items-center sm:flex-row">
+        <div className="flex flex-col items-start flex-grow md:pl-8  sm:flex-row">
           <div className="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 ml-3 bg-black rounded-full md:ml-0">
             <img src={Image} className="w-full h-full drop-shadow" alt="" />
           </div>
