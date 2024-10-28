@@ -71,7 +71,7 @@ const Social = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div id="twitter" className="social-btn social-btn-email flex-center">
+          <div id="email" className="social-btn social-btn-email flex-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="1.33em"
