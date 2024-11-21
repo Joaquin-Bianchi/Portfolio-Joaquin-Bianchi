@@ -15,11 +15,25 @@ const proyects = [
       { name: "Postgress" },
       { name: "Tailwind" },
       { name: "Shadcn" },
-     
+
       { name: "Railway" },
     ],
     LinkRepo: "",
     LinkDemo: "",
+  },
+  {
+    Name: "1° Puesto Challenge Wallbit x Goncy",
+    Description:
+      "Esta fue mi solución al challenge de Wallbit, cree una tienda tipo merchandising inspirada en el diseño y colores de wallbit. Como extra, agregué una alerta con mensajes graciosos si no se elige su tarjeta y destaqué las ventajas clave de su tarjeta",
+    Imagen: "assets/wallbit.png",
+    Technologies: [
+      { name: "Vite" },
+      { name: "React" },
+      { name: "TypeScript" },
+      { name: "Tailwind" },
+    ],
+    LinkRepo: "https://github.com/Joaquin-Bianchi/wallbit-challenge/tree/main",
+    LinkDemo: "https://wallbit-challenge-umber.vercel.app/",
   },
   {
     Name: "Britebirch Colective",
@@ -57,16 +71,6 @@ const proyects = [
     LinkRepo: "",
     LinkDemo: "",
   },
-
-  // {
-  //   Name: "Garden Wise",
-  //   Description:
-  //     "WebApp creada para facilitar el cuidado y regado de planas, tambien forma parte de las emulaciones laborales de No Country, se ha desarrollado utilizando tecnologías como Next js, React, Taiwind y Laravel para el Backend  ",
-  //   Imagen: "assets/gardenwise.jpg",
-  //   technologies: "",
-  //   LinkRepo: "https://github.com/No-Country/S11-19-ft-php-next",
-  //   LinkDemo: "https://s11-19-ft-php-next.vercel.app/login",
-  // },
 ];
 
 export default proyects;

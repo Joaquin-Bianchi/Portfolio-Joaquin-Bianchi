@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { TbPointFilled } from "react-icons/tb";
 import { ButtonDemo, ButtonGitRepo } from "../buttons/SocialLinks";
-import { SiHandlebarsdotjs } from "react-icons/si";
+import { SiHandlebarsdotjs, SiVite } from "react-icons/si";
 import {
   Bootstrap,
   CSS,
@@ -24,6 +24,7 @@ import {
 const techIcons = {
   prisma: Prisma,
   react: ReactIcon,
+  vite: SiVite,
   javascript: JavaScript,
   typescript: TypeScript,
   "next js": Nextjs,
@@ -80,7 +81,6 @@ function ProjectCard({
       <div className="p-4 md:p-6">
         <div className="flex items-center  justify-between mb-4">
           <h2 className="text-xl flex items-center font-medium text-gray-900  dark:text-[#fffffe]">
-        
             {Name}
           </h2>
           {Private && (
@@ -114,8 +114,7 @@ function ProjectCard({
             </span>
           )}
         </div>
-
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between mt-9">
           {LinkRepo && <ButtonGitRepo linkRepo={LinkRepo} />}
           {LinkDemo && <ButtonDemo linkDemo={LinkDemo} />}
         </div>

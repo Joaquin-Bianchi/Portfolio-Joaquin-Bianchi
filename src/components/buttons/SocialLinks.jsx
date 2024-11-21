@@ -55,7 +55,7 @@ function SocialLinks({ size }) {
 export function ButtonGitRepo({ linkRepo }) {
   return (
     <a
-      className="button"
+      className="button bg-[#24292e]  dark:hover:bg-white  dark:text-black"
       target="_blank"
       href={linkRepo}
       rel="noopener noreferrer"
@@ -82,7 +82,7 @@ export function ButtonDemo({ linkDemo }) {
     <a
       href={linkDemo}
       target="_blank"
-      className="relative inline-flex items-center justify-center p-3 px-4 py-2.5 overflow-hidden font-medium  transition duration-300 ease-out border-2 border-orange-500  md:rounded-md rounded-full shadow-md group
+      className="relative inline-flex items-center justify-center  p-1 px-2  md:p-3 md:px-4 py-2.5 overflow-hidden font-medium  transition duration-300 ease-out border-2 border-orange-500 rounded-md  md:rounded-md shadow-md group
     bg-orange-500 text-orange-500 cursor-pointer"
     >
       <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-orange-500 group-hover:translate-x-0 ease">
