@@ -31,11 +31,6 @@
   animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) square-in-hesitate both;
 }
 
-/* ANIMACION GRADIENTE
- className="text-[5.0rem]  text-slate font-Montserrat font-extrabold  flex items-center,
-        animate-text bg-gradient-to-r from-[#000000] via-[#f97316] to-[#000000] bg-clip-text text-transparent
-        drop-shadow dark:bg-gradient-to-r dark:from-[#ff964b] dark:via-[#ff6a00] dark:to-[#f97316]" 
-        dark:from-[#ff964b] dark:via-[#ff6a00] dark:to-[#f97316]*/
 ::-webkit-scrollbar {
   width: 11px;
   background-color: #f0f0f0; /* Color de fondo */
