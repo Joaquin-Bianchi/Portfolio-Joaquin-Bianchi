@@ -1,6 +1,6 @@
 const experiencia = [
   {
-    Title: "Frontend Developer | Expresia Dev Army",
+    Title: "Software Developer | Expresia",
     Time: "Agosto 2023 - Junio 2024",
     Description:
       "Trabajé en el desarrollo de sitios y plataformas web utilizando el CMS Expresia. Mis tareas incluyeron el consumo e integración de APIs, el diseño de componentes y plantillas dinámicas, y el desarrollo de módulos personalizados para ser reutilizados en la plataforma. Además, me ocupé de la optimización del rendimiento de los sitios y realicé migraciones de otros sitios dentro de Expresia.",

@@ -30,7 +30,7 @@ function About() {
           </div>
 
           <h2 className="animate-fade-in animate-delay-400 text-[1.2rem] md:text-3xl uppercase font-Montserrat -mt-3  dark:font-medium  text-black dark:text-[#fffffe] typing-demo">
-            Frontend Developer
+            Software Developer
           </h2>
           {/* text-wrap */}
           <div className="flex flex-col items-center mx-2 ml-5 bg-bg dark:bg-zinc-950 sm:w-auto md:w-2/3 xl:w-6/12 sm:mx-0 relative">
