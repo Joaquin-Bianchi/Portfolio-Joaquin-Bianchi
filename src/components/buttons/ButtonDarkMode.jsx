@@ -1,31 +1,35 @@
 "use client";
+
 import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
 
 function ButtonDarkMode() {
-  const [theme, setTheme] = useState(() => {
-    return "light";
-  });
+  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   useEffect(() => {
-    if (theme === "dark") {
-      document.querySelector("html").classList.add("dark");
-    } else {
-      document.querySelector("html").classList.remove("dark");
-    }
-  }, [theme]);
+    setMounted(true);
+  }, []);
 
   const handleChangeTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+    setTheme((currentTheme) => (currentTheme === "light" ? "dark" : "light"));
   };
+
+  if (!mounted) {
+    return <div className="ui-switch z-20 animate-fade-in animate-delay-100" />;
+  }
+
   return (
-    <>
-      <label className="ui-switch z-20 animate-fade-in animate-delay-100">
-        <input type="checkbox" onClick={handleChangeTheme} />
-        <div className="slider">
-          <div className="circle"></div>
-        </div>
-      </label>
-    </>
+    <label className="ui-switch z-20 animate-fade-in animate-delay-100">
+      <input
+        type="checkbox"
+        checked={theme === "dark"}
+        onChange={handleChangeTheme}
+      />
+      <div className="slider">
+        <div className="circle"></div>
+      </div>
+    </label>
   );
 }
 

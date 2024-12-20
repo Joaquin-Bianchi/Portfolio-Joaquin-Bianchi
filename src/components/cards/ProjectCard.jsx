@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { TbPointFilled } from "react-icons/tb";
 import { ButtonDemo, ButtonGitRepo } from "../buttons/SocialLinks";
-import { SiHandlebarsdotjs, SiVite } from "react-icons/si";
+import { SiExpress, SiHandlebarsdotjs, SiVite } from "react-icons/si";
 import {
   Bootstrap,
   CSS,
@@ -29,6 +29,7 @@ const techIcons = {
   typescript: TypeScript,
   "next js": Nextjs,
   nodejs: Nodejs,
+  express: SiExpress,
   postgress: PostgreSQL,
   tailwind: TailwindCSS,
   shadcn: Vercel,
