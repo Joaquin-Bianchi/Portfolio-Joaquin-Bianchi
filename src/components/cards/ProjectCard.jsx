@@ -54,7 +54,7 @@ function ProjectCard({
   const [isHovering, setIsHovering] = useState(false);
 
   return (
-    <div className="w-full max-w-xl overflow-hidden bg-white dark:bg-zinc-900   rounded-lg shadow-lg">
+    <div className="w-full bg-white dark:bg-zinc-900 max-w-xl overflow-hidden  rounded-lg shadow-lg">
       <div
         className="relative w-full aspect-video"
         onMouseEnter={() => setIsHovering(true)}

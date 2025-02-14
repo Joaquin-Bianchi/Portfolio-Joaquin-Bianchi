@@ -1,7 +1,13 @@
-import React from "react";
-import { AiFillFire } from "react-icons/ai";
 import { TbArrowBadgeRightFilled } from "react-icons/tb";
 import { CiCalendarDate } from "react-icons/ci";
+import { MdCircle } from "react-icons/md";
+import {
+  SiAwsamplify,
+  SiAmazoncognito,
+  SiAmazonaws,
+  SiReactrouter,
+} from "react-icons/si";
+
 import {
   Bootstrap,
   CSS,
@@ -38,6 +44,11 @@ const techIcons = {
   bootstrap: Bootstrap,
   handlebars: SiHandlebarsdotjs,
   jquery: SiJquery,
+  amplify: SiAwsamplify,
+  cognito: SiAmazonaws,
+  "react router": SiReactrouter,
+  s3: SiAmazonaws,
+  dynamodb: SiAmazonaws,
 };
 
 function ExperienceCard({
@@ -49,7 +60,7 @@ function ExperienceCard({
   Index,
 }) {
   return (
-    <div class="bg-bg dark:bg-zinc-950 relative mx-12   pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20  dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
+    <div class=" relative mx-12   pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20  dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
       <div class="pb-12 md:col-span-5 ">
         <div class="sticky top-0">
           <span
@@ -66,8 +77,9 @@ function ExperienceCard({
           </div>
 
           <div className="flex-grow mt-6 sm:pl-6 sm:mt-0">
-            <div className="flex items-baseline gap-1">
-              <AiFillFire
+            <div className="flex items-baseline mb gap-1">
+              <MdCircle
+                size={10}
                 className={`${
                   Index === 0
                     ? "text-orange-500"

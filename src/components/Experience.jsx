@@ -1,6 +1,6 @@
 import React from "react";
 import ExperienceCard from "./cards/ExperienceCard";
-import experiencia from "@/services/experiencia";
+import experiencia from "@/data/experiencia";
 import Loader from "./icons/Loader";
 
 export default function Experience() {

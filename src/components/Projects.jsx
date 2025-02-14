@@ -3,7 +3,7 @@ import React from "react";
 import { ButtonDemo, ButtonGitRepo } from "./buttons/SocialLinks";
 import ProjectCard from "./cards/ProjectCard";
 import Loader from "./icons/Loader";
-import proyects from "@/services/proyects";
+import proyects from "@/data/proyects";
 
 function Projects({}) {
   return (

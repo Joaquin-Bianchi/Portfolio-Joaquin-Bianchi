@@ -16,7 +16,7 @@ export default function ContactSection() {
             <Loader />
           </div>
         </div>
-        <div className="max-w-4xl mx-auto bg-white dark:bg-zinc-900  rounded-lg shadow-lg overflow-hidden">
+        <div className="max-w-4xl mx-auto  bg-white dark:bg-zinc-900 border-t dark:border-none  rounded-lg shadow-lg overflow-hidden">
           <div className="p-8 md:p-12">
             <div className="uppercase tracking-wide text-sm text-orange-500 font-bold">
               ¡Conectemos!
@@ -86,7 +86,7 @@ export default function ContactSection() {
             </div>
           </div>
         </div>
-        <div className="w-full p-2 pt-8 mt-8 text-center text-black border-t-2 border-gray-200 dark:border-gray-900">
+        <div className="w-full p-2 pt-8 mt-8 text-center text-black  border-gray-200 dark:border-gray-900">
           <p className="mb-1 text-base font-extrabold dark:text-white">
             {" "}
             Joaquin Bianchi

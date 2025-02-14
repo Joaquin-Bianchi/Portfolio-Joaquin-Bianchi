@@ -12,11 +12,14 @@ export default function RootLayout({ children }) {
         <title>Joaquin Bianchi | Portfolio</title>
         <link rel="icon" href="/favicon.png" />
       </head>
-      <body className=" bg-bg dark:bg-zinc-950">
+      <body className="">
+        <div class="dark:hidden fixed inset-0 -z-50 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"></div>
+        <div class="hidden dark:flex  dark:fixed top-0 -z-50  h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
         <ThemeProvider install next-themes>
           <Toaster position="bottom-center" reverseOrder={false} />
           <NavbarDesktop></NavbarDesktop>
           <NavbarMobile></NavbarMobile>
+
           {children}
         </ThemeProvider>
       </body>

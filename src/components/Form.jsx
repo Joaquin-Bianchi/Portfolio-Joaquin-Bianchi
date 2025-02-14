@@ -52,13 +52,13 @@ function Contact() {
       id="contact"
       className="flex justify-center w-auto  text-gray-600 body-font animate-fade-in animate-delay-500"
     >
-      <div className="flex justify-center flex-col  mt-24 ">
-        <div className="flex bg-bg dark:bg-zinc-950 flex-col text-center justify-center m-auto mb-12">
+      <div className="flex justify-center flex-col   mt-24 ">
+        <div className="flex  flex-col text-center justify-center  m-auto mb-12">
           <h2 className=" text-4xl font-extrabold text-gray-900  dark:text-white font-Montserrat title-font lg:text-5xl sm:mb-0">
             Contacto
           </h2>
 
-          <p className=" dark:text-[#cdcdcd]  items-center font-Hind-Madurai drop-shadow flex flex-col font-Hind Madurai  mt-6 text-black">
+          <p className=" dark:text-[#cdcdcd]  items-center font-Hind-Madurai bg-white drop-shadow flex flex-col font-Hind Madurai  mt-6 text-black">
             <span className="font-bold text-lg  dark:text-[#cdcdcd]">
               ¿Quieres comunicarte conmigo?
             </span>
@@ -76,7 +76,7 @@ function Contact() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex flex-wrap -m-2 font-extrabold bg-bg dark:bg-zinc-950 "
+            className="flex flex-wrap -m-2 font-extrabold"
           >
             <div className="w-1/2 p-2">
               <div className="relative">
