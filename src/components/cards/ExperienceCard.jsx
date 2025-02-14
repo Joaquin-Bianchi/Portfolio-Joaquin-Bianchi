@@ -60,11 +60,11 @@ function ExperienceCard({
   Index,
 }) {
   return (
-    <div class=" relative mx-12   pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20  dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
-      <div class="pb-12 md:col-span-5 ">
-        <div class="sticky top-0">
+    <div className=" relative mx-12   pb-12 grid before:absolute before:left-[-35px] before:block before:h-full before:border-l-2 before:border-black/20  dark:before:border-white/15 before:content-[''] md:grid-cols-5 md:gap-10 md:space-x-4]">
+      <div className="pb-12 md:col-span-5 ">
+        <div className="sticky top-0">
           <span
-            class={` ${
+            className={` ${
               Index === 0 ? "text-orange-500" : "text-black dark:text-white "
             } -left-[42px] absolute rounded-full text-5xl`}
           >
@@ -91,7 +91,7 @@ function ExperienceCard({
               </h2>
             </div>
             <div className="flex flex-col">
-              <time class=" mb-2 text-base flex items-center gap-2 text-gray-700 dark:text-white/80">
+              <time className=" mb-2 text-base flex items-center gap-2 text-gray-700 dark:text-white/80">
                 <CiCalendarDate className="text-lg" />
                 {Time}
               </time>

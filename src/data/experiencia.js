@@ -14,7 +14,7 @@ const experiencia = [
       { name: "S3" },
       { name: "DynamoDB" },
     ],
-    Image: "assets/fortisoft-logo.jpg",
+    Image: "assets/fortisoft.jpg",
   },
   {
     Title: "Desarrollador Frontend | Expresia",
