@@ -22,7 +22,7 @@ const proyects = [
     LinkDemo: "",
   },
   {
-    Name: "1° Puesto Challenge Wallbit x Goncy",
+    Name: " 🥇 Primer Puesto Challenge Wallbit x Goncy",
     Description:
       "Esta fue mi solución al challenge de Wallbit, cree una tienda tipo merchandising inspirada en el diseño y colores de wallbit. Como extra, agregué una alerta con mensajes graciosos si no se elige su tarjeta y destaqué las ventajas clave de su tarjeta",
     Imagen: "assets/wallbit.png",
