@@ -36,6 +36,27 @@ const proyects = [
     LinkDemo: "https://wallbit-challenge-umber.vercel.app/",
   },
   {
+    Name: "Landing Page LvLogistica",
+    Description:
+      "Diseñe y desarrollé una web para una empresa de logística, Para autogestionar la web use Payload CMS en su última versión (3.0) , ya que se integra directamente con Next.js 15",
+    Private: true,
+    Imagen: "assets/logistica-screen.webp",
+    Video: "assets/logistica-demo.mp4",
+    Technologies: [
+      { name: "Payload CMS" },
+      { name: "Next js" },
+      { name: "React" },
+      { name: "TypeScript" },
+      { name: "Nodejs" },
+      { name: "Framer" },
+      { name: "Tailwind" },
+      { name: "Shadcn" },
+      { name: "Firebase" },
+    ],
+    LinkRepo: "",
+    LinkDemo: "https://lvlogistica.com.ar/",
+  },
+  {
     Name: "Rutinas GYM (SasS)",
     Technologies: [
       { name: "Vite" },
@@ -55,23 +76,23 @@ const proyects = [
     LinkRepo: "https://github.com/Joaquin-Bianchi/Frontend-Rutinas-GYM",
     LinkDemo: "https://frontend-rutinas-gym.vercel.app/login",
   },
-  {
-    Name: "Porto Template",
-    Private: true,
-    Technologies: [
-      { name: "HTML" },
-      { name: "CSS" },
-      { name: "JavaScript" },
-      { name: "Nodejs" },
-      { name: "Handlebars" },
-      { name: "Bootstrap" },
-    ],
-    Description:
-      "Consiste en un template dinámico diseñado para ser utilizado en la Plataforma DXP de Expresia, enfocado en la personalización y la adaptabilidad del contenido para diferentes usuarios y necesidades.",
-    Imagen: "assets/porto.jpg",
-    LinkRepo: "",
-    LinkDemo: "",
-  },
+  // {
+  //   Name: "Porto Template",
+  //   Private: true,
+  //   Technologies: [
+  //     { name: "HTML" },
+  //     { name: "CSS" },
+  //     { name: "JavaScript" },
+  //     { name: "Nodejs" },
+  //     { name: "Handlebars" },
+  //     { name: "Bootstrap" },
+  //   ],
+  //   Description:
+  //     "Consiste en un template dinámico diseñado para ser utilizado en la Plataforma DXP de Expresia, enfocado en la personalización y la adaptabilidad del contenido para diferentes usuarios y necesidades.",
+  //   Imagen: "assets/porto.jpg",
+  //   LinkRepo: "",
+  //   LinkDemo: "",
+  // },
 ];
 
 export default proyects;
